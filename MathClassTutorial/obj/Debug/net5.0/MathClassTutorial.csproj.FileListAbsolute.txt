@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\bin\Debug\net5.0\MathClassTutorial.exe
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\bin\Debug\net5.0\MathClassTutorial.deps.json
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\bin\Debug\net5.0\MathClassTutorial.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\bin\Debug\net5.0\MathClassTutorial.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\bin\Debug\net5.0\MathClassTutorial.dll
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\bin\Debug\net5.0\ref\MathClassTutorial.dll
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\bin\Debug\net5.0\MathClassTutorial.pdb
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.dll
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\ref\MathClassTutorial.dll
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.pdb
+C:\Users\Coditas\Desktop\C#programmes\MathClassTutorial\obj\Debug\net5.0\MathClassTutorial.genruntimeconfig.cache

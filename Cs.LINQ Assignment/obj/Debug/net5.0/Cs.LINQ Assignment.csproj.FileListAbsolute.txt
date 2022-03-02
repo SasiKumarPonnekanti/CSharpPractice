@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\bin\Debug\net5.0\Cs.LINQ Assignment.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\bin\Debug\net5.0\Cs.LINQ Assignment.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\bin\Debug\net5.0\Cs.LINQ Assignment.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\bin\Debug\net5.0\Cs.LINQ Assignment.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\bin\Debug\net5.0\Cs.LINQ Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\bin\Debug\net5.0\ref\Cs.LINQ Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\bin\Debug\net5.0\Cs.LINQ Assignment.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\ref\Cs.LINQ Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.genruntimeconfig.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.LINQ Assignment\obj\Debug\net5.0\Cs.LINQ Assignment.csproj.AssemblyReference.cache

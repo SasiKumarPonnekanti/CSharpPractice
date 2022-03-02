@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\bin\Debug\net5.0\Parallel Pay slips.exe
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\bin\Debug\net5.0\Parallel Pay slips.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\bin\Debug\net5.0\Parallel Pay slips.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\bin\Debug\net5.0\Parallel Pay slips.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\bin\Debug\net5.0\Parallel Pay slips.dll
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\bin\Debug\net5.0\ref\Parallel Pay slips.dll
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\bin\Debug\net5.0\Parallel Pay slips.pdb
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.dll
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\ref\Parallel Pay slips.dll
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.pdb
+C:\Users\Coditas\Desktop\C#programmes\Parallel Pay slips\obj\Debug\net5.0\Parallel Pay slips.genruntimeconfig.cache

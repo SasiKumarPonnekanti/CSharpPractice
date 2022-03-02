@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\homework 2\bin\Debug\net5.0\homework 2.exe
+C:\Users\Coditas\Desktop\C#programmes\homework 2\bin\Debug\net5.0\homework 2.deps.json
+C:\Users\Coditas\Desktop\C#programmes\homework 2\bin\Debug\net5.0\homework 2.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\homework 2\bin\Debug\net5.0\homework 2.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\homework 2\bin\Debug\net5.0\homework 2.dll
+C:\Users\Coditas\Desktop\C#programmes\homework 2\bin\Debug\net5.0\ref\homework 2.dll
+C:\Users\Coditas\Desktop\C#programmes\homework 2\bin\Debug\net5.0\homework 2.pdb
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.dll
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\ref\homework 2.dll
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.pdb
+C:\Users\Coditas\Desktop\C#programmes\homework 2\obj\Debug\net5.0\homework 2.genruntimeconfig.cache

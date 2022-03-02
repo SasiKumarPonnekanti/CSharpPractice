@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "df54511f-5686-407d-a28d-557446308632": {
+      "ProjectGuid": "df54511f-5686-407d-a28d-557446308632",
+      "DisplayName": "Cs_Connected architecture",
+      "ColorIndex": 0
+    },
+    "1c85e1d4-6fd5-4dfb-a956-671a63d738a8": {
+      "ProjectGuid": "1c85e1d4-6fd5-4dfb-a956-671a63d738a8",
+      "DisplayName": "Cs_Disconnected Architecture",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,11 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net472\Cs_Connected architecture.exe.config
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net472\Cs_Connected architecture.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net472\Cs_Connected architecture.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.csproj.SuggestedBindingRedirects.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net472\Cs_Connected architecture.pdb

@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1321ee7e-624f-4fb4-bc2e-de074d287b76": {
+      "ProjectGuid": "1321ee7e-624f-4fb4-bc2e-de074d287b76",
+      "DisplayName": "Cs_Disconnected Architecture",
+      "ColorIndex": 0
+    },
+    "3ffc590b-18cc-427d-a4cb-caaad597e723": {
+      "ProjectGuid": "3ffc590b-18cc-427d-a4cb-caaad597e723",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 1
+    },
+    "9f197b14-f7dd-4b8b-9835-6bfd1c33d5d8": {
+      "ProjectGuid": "9f197b14-f7dd-4b8b-9835-6bfd1c33d5d8",
+      "DisplayName": "Cs_Connected architecture",
+      "ColorIndex": 2
+    },
+    "eea34090-ae0a-4dcd-b701-622c1013ecd8": {
+      "ProjectGuid": "eea34090-ae0a-4dcd-b701-622c1013ecd8",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 3
+    },
+    "cb7fa295-cebd-4559-909d-4129afb8b801": {
+      "ProjectGuid": "cb7fa295-cebd-4559-909d-4129afb8b801",
+      "DisplayName": "Cs.Serialization",
+      "ColorIndex": 4
+    },
+    "58d9f631-f294-41e9-9015-1574ea92c52c": {
+      "ProjectGuid": "58d9f631-f294-41e9-9015-1574ea92c52c",
+      "DisplayName": "Cs_Disconnected Architecture",
+      "ColorIndex": 5
+    },
+    "441aac62-9e81-461c-a0c7-0b920f2545ea": {
+      "ProjectGuid": "441aac62-9e81-461c-a0c7-0b920f2545ea",
+      "DisplayName": "Parallel Pay slips",
+      "ColorIndex": 6
+    },
+    "ae84b0e7-5dd6-4c67-85be-224c26cb1711": {
+      "ProjectGuid": "ae84b0e7-5dd6-4c67-85be-224c26cb1711",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 7
+    },
+    "5473235d-7a25-48f4-bc69-1eca59d38f4a": {
+      "ProjectGuid": "5473235d-7a25-48f4-bc69-1eca59d38f4a",
+      "DisplayName": "Cs.LINQ Assignment",
+      "ColorIndex": 8
+    },
+    "ace9bba0-0b95-4009-8de1-64d2b159aaf9": {
+      "ProjectGuid": "ace9bba0-0b95-4009-8de1-64d2b159aaf9",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 9
+    },
+    "00b52349-28ba-4dfc-b588-47f85bea7f51": {
+      "ProjectGuid": "00b52349-28ba-4dfc-b588-47f85bea7f51",
+      "DisplayName": "Cs_Connected architecture",
+      "ColorIndex": 10
+    },
+    "ff66bc6f-6eac-4fdc-994e-a53ba94d6d79": {
+      "ProjectGuid": "ff66bc6f-6eac-4fdc-994e-a53ba94d6d79",
+      "DisplayName": "Cs_Threading",
+      "ColorIndex": 11
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "76781243-823b-457e-b03f-95ca4250ea81": {
+      "ProjectGuid": "76781243-823b-457e-b03f-95ca4250ea81",
+      "DisplayName": "Cs_Disconnected Architecture",
+      "ColorIndex": 12
+    }
+  },
+  "NextColorIndex": 13
+}

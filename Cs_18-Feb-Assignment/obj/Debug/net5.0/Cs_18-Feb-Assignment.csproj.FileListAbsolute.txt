@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net5.0\Cs_18-Feb-Assignment.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net5.0\Cs_18-Feb-Assignment.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net5.0\Cs_18-Feb-Assignment.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net5.0\Cs_18-Feb-Assignment.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net5.0\Cs_18-Feb-Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net5.0\ref\Cs_18-Feb-Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\bin\Debug\net5.0\Cs_18-Feb-Assignment.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\ref\Cs_18-Feb-Assignment.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_18-Feb-Assignment\obj\Debug\net5.0\Cs_18-Feb-Assignment.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Structs\bin\Debug\net5.0\Structs.exe
+C:\Users\Coditas\Desktop\C#programmes\Structs\bin\Debug\net5.0\Structs.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Structs\bin\Debug\net5.0\Structs.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Structs\bin\Debug\net5.0\Structs.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Structs\bin\Debug\net5.0\Structs.dll
+C:\Users\Coditas\Desktop\C#programmes\Structs\bin\Debug\net5.0\ref\Structs.dll
+C:\Users\Coditas\Desktop\C#programmes\Structs\bin\Debug\net5.0\Structs.pdb
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.dll
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\ref\Structs.dll
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.pdb
+C:\Users\Coditas\Desktop\C#programmes\Structs\obj\Debug\net5.0\Structs.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\bin\Debug\net5.0\DataTyoeConversion.exe
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\bin\Debug\net5.0\DataTyoeConversion.deps.json
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\bin\Debug\net5.0\DataTyoeConversion.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\bin\Debug\net5.0\DataTyoeConversion.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\bin\Debug\net5.0\DataTyoeConversion.dll
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\bin\Debug\net5.0\ref\DataTyoeConversion.dll
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\bin\Debug\net5.0\DataTyoeConversion.pdb
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\DataTyoeConversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\DataTyoeConversion.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\DataTyoeConversion.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\DataTyoeConversion.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\DataTyoeConversion.dll
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\ref\DataTyoeConversion.dll
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\DataTyoeConversion.pdb
+C:\Users\Coditas\Desktop\C#programmes\DataTyoeConversion\obj\Debug\net5.0\DataTyoeConversion.genruntimeconfig.cache

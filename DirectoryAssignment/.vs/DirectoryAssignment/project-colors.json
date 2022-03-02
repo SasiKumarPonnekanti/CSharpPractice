@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ca555dd9-656e-433a-825a-0a99660d7f00": {
+      "ProjectGuid": "ca555dd9-656e-433a-825a-0a99660d7f00",
+      "DisplayName": "DirectoryAssignment",
+      "ColorIndex": 0
+    },
+    "60f374c7-f963-417f-82fc-1370bf83a3b5": {
+      "ProjectGuid": "60f374c7-f963-417f-82fc-1370bf83a3b5",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

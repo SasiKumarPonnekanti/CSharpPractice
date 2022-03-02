@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\static and instance\bin\Debug\net5.0\static and instance.exe
+C:\Users\Coditas\Desktop\C#programmes\static and instance\bin\Debug\net5.0\static and instance.deps.json
+C:\Users\Coditas\Desktop\C#programmes\static and instance\bin\Debug\net5.0\static and instance.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\static and instance\bin\Debug\net5.0\static and instance.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\static and instance\bin\Debug\net5.0\static and instance.dll
+C:\Users\Coditas\Desktop\C#programmes\static and instance\bin\Debug\net5.0\ref\static and instance.dll
+C:\Users\Coditas\Desktop\C#programmes\static and instance\bin\Debug\net5.0\static and instance.pdb
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.dll
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\ref\static and instance.dll
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.pdb
+C:\Users\Coditas\Desktop\C#programmes\static and instance\obj\Debug\net5.0\static and instance.genruntimeconfig.cache

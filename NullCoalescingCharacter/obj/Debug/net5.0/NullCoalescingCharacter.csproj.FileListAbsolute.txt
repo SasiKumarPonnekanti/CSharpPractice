@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\bin\Debug\net5.0\NullCoalescingCharacter.exe
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\bin\Debug\net5.0\NullCoalescingCharacter.deps.json
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\bin\Debug\net5.0\NullCoalescingCharacter.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\bin\Debug\net5.0\NullCoalescingCharacter.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\bin\Debug\net5.0\NullCoalescingCharacter.dll
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\bin\Debug\net5.0\ref\NullCoalescingCharacter.dll
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\bin\Debug\net5.0\NullCoalescingCharacter.pdb
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.dll
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\ref\NullCoalescingCharacter.dll
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.pdb
+C:\Users\Coditas\Desktop\C#programmes\NullCoalescingCharacter\obj\Debug\net5.0\NullCoalescingCharacter.genruntimeconfig.cache

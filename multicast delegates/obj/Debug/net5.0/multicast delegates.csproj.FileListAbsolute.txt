@@ -1,0 +1,15 @@
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\bin\Debug\net5.0\multicast delegates.exe
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\bin\Debug\net5.0\multicast delegates.deps.json
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\bin\Debug\net5.0\multicast delegates.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\bin\Debug\net5.0\multicast delegates.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\bin\Debug\net5.0\multicast delegates.dll
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\bin\Debug\net5.0\ref\multicast delegates.dll
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\bin\Debug\net5.0\multicast delegates.pdb
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\multicast delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\multicast delegates.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\multicast delegates.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\multicast delegates.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\multicast delegates.dll
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\ref\multicast delegates.dll
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\multicast delegates.pdb
+C:\Users\Coditas\Desktop\C#programmes\multicast delegates\obj\Debug\net5.0\multicast delegates.genruntimeconfig.cache

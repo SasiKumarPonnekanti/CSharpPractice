@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\bin\Debug\net5.0\Cs.Extension.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\bin\Debug\net5.0\Cs.Extension.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\bin\Debug\net5.0\Cs.Extension.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\bin\Debug\net5.0\Cs.Extension.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\bin\Debug\net5.0\Cs.Extension.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\bin\Debug\net5.0\ref\Cs.Extension.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\bin\Debug\net5.0\Cs.Extension.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\ref\Cs.Extension.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.Extension\obj\Debug\net5.0\Cs.Extension.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\bin\Debug\net5.0\Cs.Serialization.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\bin\Debug\net5.0\Cs.Serialization.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\bin\Debug\net5.0\Cs.Serialization.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\bin\Debug\net5.0\Cs.Serialization.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\bin\Debug\net5.0\Cs.Serialization.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\bin\Debug\net5.0\ref\Cs.Serialization.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\bin\Debug\net5.0\Cs.Serialization.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\ref\Cs.Serialization.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.Serialization\obj\Debug\net5.0\Cs.Serialization.genruntimeconfig.cache

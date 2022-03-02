@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Employee App\bin\Debug\net5.0\Employee App.exe
+C:\Users\Coditas\Desktop\C#programmes\Employee App\bin\Debug\net5.0\Employee App.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Employee App\bin\Debug\net5.0\Employee App.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Employee App\bin\Debug\net5.0\Employee App.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Employee App\bin\Debug\net5.0\Employee App.dll
+C:\Users\Coditas\Desktop\C#programmes\Employee App\bin\Debug\net5.0\ref\Employee App.dll
+C:\Users\Coditas\Desktop\C#programmes\Employee App\bin\Debug\net5.0\Employee App.pdb
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.dll
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\ref\Employee App.dll
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.pdb
+C:\Users\Coditas\Desktop\C#programmes\Employee App\obj\Debug\net5.0\Employee App.genruntimeconfig.cache

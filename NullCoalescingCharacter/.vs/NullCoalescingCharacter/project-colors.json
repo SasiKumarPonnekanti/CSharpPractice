@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4187fe1a-f642-46a3-b742-3ef104e43c02": {
+      "ProjectGuid": "4187fe1a-f642-46a3-b742-3ef104e43c02",
+      "DisplayName": "NullCoalescingCharacter",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

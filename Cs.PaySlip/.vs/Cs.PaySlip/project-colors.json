@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5ab292bf-8130-4585-b36d-b3ccaf9f47a7": {
+      "ProjectGuid": "5ab292bf-8130-4585-b36d-b3ccaf9f47a7",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

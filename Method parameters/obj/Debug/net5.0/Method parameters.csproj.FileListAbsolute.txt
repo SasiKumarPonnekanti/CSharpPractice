@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\bin\Debug\net5.0\Method parameters.exe
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\bin\Debug\net5.0\Method parameters.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\bin\Debug\net5.0\Method parameters.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\bin\Debug\net5.0\Method parameters.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\bin\Debug\net5.0\Method parameters.dll
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\bin\Debug\net5.0\ref\Method parameters.dll
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\bin\Debug\net5.0\Method parameters.pdb
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.dll
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\ref\Method parameters.dll
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.pdb
+C:\Users\Coditas\Desktop\C#programmes\Method parameters\obj\Debug\net5.0\Method parameters.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\bin\Debug\net5.0\Namespace Example.exe
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\bin\Debug\net5.0\Namespace Example.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\bin\Debug\net5.0\Namespace Example.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\bin\Debug\net5.0\Namespace Example.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\bin\Debug\net5.0\Namespace Example.dll
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\bin\Debug\net5.0\ref\Namespace Example.dll
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\bin\Debug\net5.0\Namespace Example.pdb
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.dll
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\ref\Namespace Example.dll
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.pdb
+C:\Users\Coditas\Desktop\C#programmes\Namespace Example\obj\Debug\net5.0\Namespace Example.genruntimeconfig.cache

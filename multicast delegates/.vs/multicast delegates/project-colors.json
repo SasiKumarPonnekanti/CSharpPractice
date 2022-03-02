@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc3c6b4b-82f0-40c3-a422-9362ee4ee83a": {
+      "ProjectGuid": "fc3c6b4b-82f0-40c3-a422-9362ee4ee83a",
+      "DisplayName": "multicast delegates",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

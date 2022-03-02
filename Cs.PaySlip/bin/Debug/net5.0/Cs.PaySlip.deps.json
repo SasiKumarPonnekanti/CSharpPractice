@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Cs.PaySlip/1.0.0": {
+        "runtime": {
+          "Cs.PaySlip.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cs.PaySlip/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

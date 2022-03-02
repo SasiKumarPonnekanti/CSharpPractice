@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\bin\Debug\net5.0\DirectoryAssignment.exe
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\bin\Debug\net5.0\DirectoryAssignment.deps.json
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\bin\Debug\net5.0\DirectoryAssignment.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\bin\Debug\net5.0\DirectoryAssignment.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\bin\Debug\net5.0\DirectoryAssignment.dll
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\bin\Debug\net5.0\ref\DirectoryAssignment.dll
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\bin\Debug\net5.0\DirectoryAssignment.pdb
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.dll
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\ref\DirectoryAssignment.dll
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.pdb
+C:\Users\Coditas\Desktop\C#programmes\DirectoryAssignment\obj\Debug\net5.0\DirectoryAssignment.genruntimeconfig.cache

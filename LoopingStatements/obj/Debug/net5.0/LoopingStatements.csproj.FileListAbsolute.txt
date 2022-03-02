@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\bin\Debug\net5.0\LoopingStatements.exe
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\bin\Debug\net5.0\LoopingStatements.deps.json
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\bin\Debug\net5.0\LoopingStatements.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\bin\Debug\net5.0\LoopingStatements.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\bin\Debug\net5.0\LoopingStatements.dll
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\bin\Debug\net5.0\ref\LoopingStatements.dll
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\bin\Debug\net5.0\LoopingStatements.pdb
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.dll
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\ref\LoopingStatements.dll
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.pdb
+C:\Users\Coditas\Desktop\C#programmes\LoopingStatements\obj\Debug\net5.0\LoopingStatements.genruntimeconfig.cache

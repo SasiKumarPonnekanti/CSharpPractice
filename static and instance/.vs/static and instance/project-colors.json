@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "207b36ba-f59a-45ab-8fe0-13fe1a4000dc": {
+      "ProjectGuid": "207b36ba-f59a-45ab-8fe0-13fe1a4000dc",
+      "DisplayName": "static and instance",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

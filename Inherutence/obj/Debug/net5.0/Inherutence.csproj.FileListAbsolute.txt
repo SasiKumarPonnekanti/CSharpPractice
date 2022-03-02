@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\bin\Debug\net5.0\Inherutence.exe
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\bin\Debug\net5.0\Inherutence.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\bin\Debug\net5.0\Inherutence.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\bin\Debug\net5.0\Inherutence.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\bin\Debug\net5.0\Inherutence.dll
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\bin\Debug\net5.0\ref\Inherutence.dll
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\bin\Debug\net5.0\Inherutence.pdb
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.dll
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\ref\Inherutence.dll
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.pdb
+C:\Users\Coditas\Desktop\C#programmes\Inherutence\obj\Debug\net5.0\Inherutence.genruntimeconfig.cache

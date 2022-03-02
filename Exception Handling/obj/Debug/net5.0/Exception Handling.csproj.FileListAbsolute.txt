@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\bin\Debug\net5.0\Exception Handling.exe
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\bin\Debug\net5.0\Exception Handling.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\bin\Debug\net5.0\Exception Handling.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\bin\Debug\net5.0\Exception Handling.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\bin\Debug\net5.0\Exception Handling.dll
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\bin\Debug\net5.0\ref\Exception Handling.dll
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\bin\Debug\net5.0\Exception Handling.pdb
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.dll
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\ref\Exception Handling.dll
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.pdb
+C:\Users\Coditas\Desktop\C#programmes\Exception Handling\obj\Debug\net5.0\Exception Handling.genruntimeconfig.cache

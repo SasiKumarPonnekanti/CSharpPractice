@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\bin\Debug\net5.0\Cs.PaySlip.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\bin\Debug\net5.0\Cs.PaySlip.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\bin\Debug\net5.0\Cs.PaySlip.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\bin\Debug\net5.0\Cs.PaySlip.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\bin\Debug\net5.0\Cs.PaySlip.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\bin\Debug\net5.0\ref\Cs.PaySlip.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\bin\Debug\net5.0\Cs.PaySlip.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\ref\Cs.PaySlip.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs.PaySlip\obj\Debug\net5.0\Cs.PaySlip.genruntimeconfig.cache

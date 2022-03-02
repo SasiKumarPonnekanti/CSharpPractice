@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\bin\Debug\net5.0\Cs_Test.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\bin\Debug\net5.0\Cs_Test.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\bin\Debug\net5.0\Cs_Test.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\bin\Debug\net5.0\Cs_Test.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\bin\Debug\net5.0\Cs_Test.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\bin\Debug\net5.0\ref\Cs_Test.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\bin\Debug\net5.0\Cs_Test.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\ref\Cs_Test.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_Test\obj\Debug\net5.0\Cs_Test.genruntimeconfig.cache

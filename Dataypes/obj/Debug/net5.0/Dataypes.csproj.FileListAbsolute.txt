@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\bin\Debug\net5.0\Dataypes.exe
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\bin\Debug\net5.0\Dataypes.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\bin\Debug\net5.0\Dataypes.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\bin\Debug\net5.0\Dataypes.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\bin\Debug\net5.0\Dataypes.dll
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\bin\Debug\net5.0\ref\Dataypes.dll
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\bin\Debug\net5.0\Dataypes.pdb
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.dll
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\ref\Dataypes.dll
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.pdb
+C:\Users\Coditas\Desktop\C#programmes\Dataypes\obj\Debug\net5.0\Dataypes.genruntimeconfig.cache

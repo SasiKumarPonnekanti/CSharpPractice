@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "02bd5218-41fc-4183-876f-bfd5fa951343": {
+      "ProjectGuid": "02bd5218-41fc-4183-876f-bfd5fa951343",
+      "DisplayName": "String Methods",
+      "ColorIndex": 0
+    },
+    "f49780e9-7b3f-4282-a7e6-d83b9a1374c2": {
+      "ProjectGuid": "f49780e9-7b3f-4282-a7e6-d83b9a1374c2",
+      "DisplayName": "Cs_18-Feb-Assignment",
+      "ColorIndex": 1
+    },
+    "bb3926f4-f4e7-4d46-a1d5-d0b80dac36c8": {
+      "ProjectGuid": "bb3926f4-f4e7-4d46-a1d5-d0b80dac36c8",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
