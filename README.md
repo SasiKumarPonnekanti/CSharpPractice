@@ -14,4 +14,13 @@ modern apps
 4)cloud 
 
 
+windows .net feramework
+
+cross platform 1.0-5/6
+consoleapps
+asp.net core eco-System{ UI,MVC,API,Interactive UI(blazor) grpc}
+
+
+
+
 
