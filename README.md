@@ -20,7 +20,16 @@ cross platform 1.0-5/6
 consoleapps
 asp.net core eco-System{ UI,MVC,API,Interactive UI(blazor) grpc}
 
+.Net Core Side by side execution |
+                                 |
+                                 
+ orm
+  csdl                ssdl
+![image](https://user-images.githubusercontent.com/99091693/156509717-c2aaed5a-9f77-485b-858d-9f59f834de25.png)
 
+ORm+ Ado.net+ linq =ado.net entity framework
+                       ^->app.csdl+app.msdl+app.ssdl
+                       
 
 
 
