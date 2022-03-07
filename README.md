@@ -30,6 +30,9 @@ asp.net core eco-System{ UI,MVC,API,Interactive UI(blazor) grpc}
 ORm+ Ado.net+ linq =ado.net entity framework
                        ^->app.csdl+app.msdl+app.ssdl
                        
+                       
+                       newton soft
+                       
 
 
 
