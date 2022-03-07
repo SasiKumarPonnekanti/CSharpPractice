@@ -70,7 +70,22 @@
       "ProjectGuid": "76781243-823b-457e-b03f-95ca4250ea81",
       "DisplayName": "Cs_Disconnected Architecture",
       "ColorIndex": 12
+    },
+    "3aa6344b-377d-40ee-9cf7-fc3d1337d038": {
+      "ProjectGuid": "3aa6344b-377d-40ee-9cf7-fc3d1337d038",
+      "DisplayName": "DirectoryAssignment",
+      "ColorIndex": 13
+    },
+    "3c7bbd09-0b18-4134-9d01-8c25323d1229": {
+      "ProjectGuid": "3c7bbd09-0b18-4134-9d01-8c25323d1229",
+      "DisplayName": "Cs_Async-Await",
+      "ColorIndex": 14
+    },
+    "97058f8a-4854-4981-a1c4-7839bed89e89": {
+      "ProjectGuid": "97058f8a-4854-4981-a1c4-7839bed89e89",
+      "DisplayName": "test3",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 0
 }

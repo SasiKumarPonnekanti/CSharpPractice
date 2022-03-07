@@ -8,9 +8,9 @@ namespace Questions.Question_16
 {
     internal class Question_16
     {
-       /* public sealed  void method()
+       private  void method()
         {
 
-        }*/
+        }
     }
 }

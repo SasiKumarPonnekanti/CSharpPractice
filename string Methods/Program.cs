@@ -61,7 +61,7 @@ namespace homework_2
                         break;
                     case 4:
                        
-                        getCount(str, ' ', out  counOfWords, out str2);
+                        getCount(str, '.', out  counOfWords, out str2);
                         Console.WriteLine($"There are {counOfWords} sentences in given String ");
                         break;
                     case 5:

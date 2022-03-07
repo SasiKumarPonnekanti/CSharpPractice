@@ -42,6 +42,7 @@ namespace Cs_Disconnected_Architecture.Data
                 SqlCommandBuilder bldr1 = new SqlCommandBuilder(AdEmp);
                 // 5. Call Update
                 AdEmp.Update(Ds, "Employee");
+                Console.WriteLine("Update Success");
             }
             catch (Exception ex)
             {
@@ -86,7 +87,7 @@ namespace Cs_Disconnected_Architecture.Data
             }
             catch(Exception ex)
             {
-               
+               Console.WriteLine(ex.Message);
             }
             return Emp;
         }
@@ -174,7 +175,7 @@ namespace Cs_Disconnected_Architecture.Data
             }
             else
             {
-                Console.WriteLine("Department Not found");
+                Console.WriteLine("Employee Not found");
                 return null;
             }
         }

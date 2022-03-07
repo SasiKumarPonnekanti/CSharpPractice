@@ -1,0 +1,11 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\bin\Debug\net48\Cs_Threading.exe.config
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\bin\Debug\net48\Cs_Threading.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\bin\Debug\net48\Cs_Threading.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.csproj.SuggestedBindingRedirects.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_Threading\obj\Debug\net48\Cs_Threading.pdb

@@ -10,7 +10,17 @@
       "ProjectGuid": "132cde3a-6aec-47c5-9317-977e53a331cf",
       "DisplayName": "Test2",
       "ColorIndex": 1
+    },
+    "6def9a8d-8b4d-47ac-9ec8-d26ead0d5be3": {
+      "ProjectGuid": "6def9a8d-8b4d-47ac-9ec8-d26ead0d5be3",
+      "DisplayName": "test3",
+      "ColorIndex": 2
+    },
+    "c30cce67-459f-4ddb-be92-8035e980b1c2": {
+      "ProjectGuid": "c30cce67-459f-4ddb-be92-8035e980b1c2",
+      "DisplayName": "Employee App",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

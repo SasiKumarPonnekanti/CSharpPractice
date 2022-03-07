@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fa832188-36d8-438b-be8a-02df596e5f99": {
+      "ProjectGuid": "fa832188-36d8-438b-be8a-02df596e5f99",
+      "DisplayName": "Cs_Payslips Using Task",
+      "ColorIndex": 0
+    },
+    "17609c3b-4d0a-4508-8f9a-0184758f623c": {
+      "ProjectGuid": "17609c3b-4d0a-4508-8f9a-0184758f623c",
+      "DisplayName": "Parallel Pay slips",
+      "ColorIndex": 1
+    },
+    "5de46674-e2b8-44a3-b319-707b61e6f078": {
+      "ProjectGuid": "5de46674-e2b8-44a3-b319-707b61e6f078",
+      "DisplayName": "Cs_Async-Await",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
