@@ -5,7 +5,22 @@
       "ProjectGuid": "13625cec-3427-4998-9924-8910bd710678",
       "DisplayName": "Cs_EfCore_DBfirst",
       "ColorIndex": 0
+    },
+    "fbefd3d6-44ca-423f-9d7f-ba10c2f4be73": {
+      "ProjectGuid": "fbefd3d6-44ca-423f-9d7f-ba10c2f4be73",
+      "DisplayName": "Cs.LINQ Assignment",
+      "ColorIndex": 1
+    },
+    "c0dcae5f-0222-454b-af3c-643b27204c1f": {
+      "ProjectGuid": "c0dcae5f-0222-454b-af3c-643b27204c1f",
+      "DisplayName": "Cs.PaySlip",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

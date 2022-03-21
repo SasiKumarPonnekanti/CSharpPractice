@@ -64,6 +64,11 @@ namespace Cs_Threading
             }
         }
 
+        public void PrintData(Employee emp)
+        {
+            Console.WriteLine($"EmpNo:{emp.EmpNo} EmpName:{emp.EmpName} Designation:{emp.Designation} Salary:{emp.Salary}");
+        }
+
 
 
 

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9f1192f4-b191-42e0-ab24-654050df2719": {
+      "ProjectGuid": "9f1192f4-b191-42e0-ab24-654050df2719",
+      "DisplayName": "EF Core 2.0 – New Features",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

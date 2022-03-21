@@ -25,12 +25,15 @@ namespace Cs_Threading
             Thread t2 = new Thread(() => storeData.WriteDataToFile(employee));
             t1.Start();
             t2.Start();
-            Thread.Sleep(1000);
-            Console.WriteLine(t2.ThreadState);
-          
+
+            t1.Join();
+            t2.Join();
+
+            Console.WriteLine($"EmpNo:{employee.EmpNo} EmpName:{employee.EmpName} Designation:{employee.Designation} Salary:{employee.Salary}");
 
 
+        }
 
-        }     
+       
     }
 }

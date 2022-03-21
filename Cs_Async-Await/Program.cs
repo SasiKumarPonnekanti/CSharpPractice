@@ -20,8 +20,10 @@ namespace Cs_Async_Await
             {
                 Console.WriteLine();
                
-                Console.WriteLine("Enter Your Choice \n1.Department 2.Employee");
+                Console.WriteLine("Enter Your Choice \n1.Department 2.Employee 3.Exit 4.Clear");
                 int Choice1 = Convert.ToInt32(Console.ReadLine());
+                if (Choice1 == 3)
+                    break;
                 switch (Choice1)
                 {
                     case 1:
@@ -119,7 +121,15 @@ namespace Cs_Async_Await
                                         IsNum = int.TryParse(Console.ReadLine(), out Capacity);
                                     }
                                     dep.Capacity = Capacity;
-                                    de.UpdateDeptAsync(dep);
+                                    int res =de.UpdateDeptAsync(dep).Result;
+                                    if(res != 0)
+                                    {
+                                        Console.WriteLine("Update Sucess");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Update UnSucess");
+                                    }
                                 }
                                 else
                                 {
@@ -221,6 +231,14 @@ namespace Cs_Async_Await
                                     empe.DeptNo = num;
                                     Console.WriteLine("Enter Designation");
                                     empe.Designation = Console.ReadLine();
+                                    Console.WriteLine("Enter Salary");
+                                    IsNum = int.TryParse(Console.ReadLine(), out num);
+                                    while (!IsNum)
+                                    {
+                                        Console.WriteLine("Enter Dept No correctly");
+                                        IsNum = int.TryParse(Console.ReadLine(), out num);
+                                    }
+                                    empe.Salary = num;
                                     var res = EA.CreateEmpAsync(empe).Result;
                                     if(res!=0)
                                     {
@@ -241,6 +259,41 @@ namespace Cs_Async_Await
 
                                 break;
                             case 4:
+                                
+                                Console.WriteLine("Enter Employee number");
+                                Console.WriteLine("Enter Emp Number");
+                                IsNum = int.TryParse(Console.ReadLine(), out num);
+                                while (!IsNum)
+                                {
+                                    Console.WriteLine("Enter Dept No correctly");
+                                    IsNum = int.TryParse(Console.ReadLine(), out num);
+                                }
+                                var Uemp = EA.GetEmpByIdAsync(num).Result;
+                                if (Uemp != null)
+                                {
+                                    Uemp.EmpNo = num;
+                                    Console.WriteLine("Enter New Name");
+                                    Uemp.EmpName = Console.ReadLine();
+                                    Console.WriteLine("Enter New Department number");
+                                    Uemp.DeptNo = Convert.ToInt32(Console.ReadLine());
+                                    Console.WriteLine("Enter new Designtion");
+                                    Uemp.Designation = Console.ReadLine();
+                                    Console.WriteLine("Enter New Salary");
+                                    Uemp.Salary = Convert.ToInt32(Console.ReadLine());
+                                    int res = EA.UpdateEmpAsync(Uemp).Result;
+                                    if(res!= 0)
+                                    {
+                                        Console.WriteLine("Update Success");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Update UnSuccess");
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Employee Number NOT found");
+                                }
 
                                 break;
                             case 5:
@@ -263,11 +316,18 @@ namespace Cs_Async_Await
                                 }
 
                                 break;
+                         
                             default:
                                 Console.WriteLine("Wrong Choice");
                                 break;
 
                         }
+                        break;
+                    case 4:
+                        Console.Clear();
+                        break;
+                    default:
+                        Console.WriteLine("Wrong Choice");
                         break;
                 }
             }

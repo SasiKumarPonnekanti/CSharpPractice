@@ -16,7 +16,7 @@ namespace Cs_Payslips_Using_Task
             Console.WriteLine("Hello World!");
             var duration = Stopwatch.StartNew();
 
-            Task task = Task.Factory.StartNew(() => GenerateSlip(null))
+            Task task = Task.Factory.StartNew(() => GenerateSlip())
                 .ContinueWith(delegate { TransferSlips(); });
 
                 
@@ -163,7 +163,18 @@ namespace Cs_Payslips_Using_Task
         {
             try
             {
-                File.Copy(,)
+                var files = Directory.GetFiles(@"C: \Users\Coditas\Desktop\ParallelPayslips", "", SearchOption.AllDirectories).ToList(); ;
+                foreach (var filename in files)
+                {
+                    string file = filename.ToString();
+
+                     Console.WriteLine(file);
+                    string str = @"C:\Users\Coditas\Desktop\destination" + file.ToString(); //,Replace("Your Path");
+                    if (!File.Exists(str))
+                    {
+                        File.Copy(file, str);
+                    }
+                }
             }
             catch (Exception ex)
             {

@@ -1,0 +1,3 @@
+C:\Users\Coditas\Desktop\C#programmes\EmployeeManagementUIApp\bin\Release\net6.0\publish\EmployeeManagementUIApp.pdb
+C:\Users\Coditas\Desktop\C#programmes\EmployeeManagementUIApp\bin\Release\net6.0\publish\DBFirstLibrary.pdb
+C:\Users\Coditas\Desktop\C#programmes\EmployeeManagementUIApp\bin\Release\net6.0\publish\EmployeeManagementUIApp.exe

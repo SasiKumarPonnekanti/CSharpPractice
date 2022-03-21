@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "54a13c3d-60c0-4d4b-a7f7-3ba02b58988a": {
+      "ProjectGuid": "54a13c3d-60c0-4d4b-a7f7-3ba02b58988a",
+      "DisplayName": "Cs_EmployeeManagementWebApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Cs_Pattern_Matching/1.0.0": {
+        "runtime": {
+          "Cs_Pattern_Matching.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cs_Pattern_Matching/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

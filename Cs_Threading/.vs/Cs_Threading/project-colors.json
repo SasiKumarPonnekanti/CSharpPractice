@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ba4b1c35-285d-4d52-b36b-dbaa06934a07": {
+      "ProjectGuid": "ba4b1c35-285d-4d52-b36b-dbaa06934a07",
+      "DisplayName": "Cs_Threading",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

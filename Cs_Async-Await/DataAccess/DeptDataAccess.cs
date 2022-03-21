@@ -94,47 +94,19 @@ namespace Cs_Async_Await.DataAccess
            
             return department;
         }
-        public async void UpdateDeptAsync(Department department)
+        public async Task<int> UpdateDeptAsync(Department department)
         {
+            int res = 0;
             try
             {
                 
                 _connection.Open();
                 cmdDept.Connection = _connection;
 
-                SqlParameter pDeptNo = new SqlParameter();
-                pDeptNo.ParameterName = "@DeptNo";
-                pDeptNo.SqlDbType = SqlDbType.Int;
-                pDeptNo.Direction = ParameterDirection.Input;
-                pDeptNo.Value = department.DeptNo;
-                cmdDept.Parameters.Add(pDeptNo);
-
-                SqlParameter pDeptName = new SqlParameter();
-                pDeptName.ParameterName = "@DeptName";
-                pDeptName.SqlDbType= SqlDbType.VarChar;
-                pDeptName.Direction = ParameterDirection.Input;
-                pDeptName.Value = department.DeptName;
-                cmdDept.Parameters.Add(pDeptName);
-
-                SqlParameter pLocation = new SqlParameter();
-                pLocation.ParameterName = "@Location";
-                pLocation.SqlDbType = SqlDbType.VarChar;
-                pLocation.Direction = ParameterDirection.Input;
-                pLocation.Value = department.Location;
-                cmdDept.Parameters.Add(pLocation);
-
-                SqlParameter pCapacity = new SqlParameter();
-                pCapacity.ParameterName = "@Capacity";
-                pCapacity.SqlDbType = SqlDbType.Int;
-                pCapacity.Direction = ParameterDirection.Input;
-                pCapacity.Value = department.Capacity;
-                cmdDept.Parameters.Add(pCapacity);
-
-
-
-                cmdDept.CommandText = "Update Department Set DeptName=@DeptName, Location=@Location, Capacity=@Capacity where DeptNo=@DeptNo";
-                int res =await cmdDept.ExecuteNonQueryAsync();
-                Console.WriteLine(res);
+                cmdDept.CommandText = $"Update Department Set DeptName='{department.DeptName}', Location='{department.Location}', Capacity={department.Capacity} where DeptNo={department.DeptNo}";
+                res =await cmdDept.ExecuteNonQueryAsync();
+                
+                
             }
             catch (Exception ex)
             {
@@ -145,7 +117,7 @@ namespace Cs_Async_Await.DataAccess
                 _connection.Close();
                
             }
-            
+            return res;
 
         }
         public async void CreateDeptAsync(Department department)

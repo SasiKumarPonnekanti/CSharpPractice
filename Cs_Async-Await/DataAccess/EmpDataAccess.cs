@@ -192,7 +192,33 @@ namespace Cs_Async_Await.DataAccess
             }
             return res;
         }
-        public void Dispose()
+
+        public async Task<int> UpdateEmpAsync(Employee emp)
+        {
+            int res = 0;
+            try
+            {
+
+                _connection.Open();
+                cmdEmp.Connection = _connection;
+
+                cmdEmp.CommandText = $"Update Employee Set EmpName='{emp.EmpName}',DeptNo={emp.DeptNo}, Designation='{emp.Designation}', Salary={emp.Salary} where EmpNo={emp.EmpNo}";
+                res = await cmdEmp.ExecuteNonQueryAsync();
+
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                _connection.Close();
+
+            }
+            return res;
+        }
+            public void Dispose()
         {
             _connection.Dispose();
             GC.SuppressFinalize(this);

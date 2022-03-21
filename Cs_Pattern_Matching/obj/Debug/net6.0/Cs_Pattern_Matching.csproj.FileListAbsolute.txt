@@ -1,0 +1,15 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\bin\Debug\net6.0\Cs_Pattern_Matching.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\bin\Debug\net6.0\Cs_Pattern_Matching.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\bin\Debug\net6.0\Cs_Pattern_Matching.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\bin\Debug\net6.0\Cs_Pattern_Matching.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\bin\Debug\net6.0\ref\Cs_Pattern_Matching.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\bin\Debug\net6.0\Cs_Pattern_Matching.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\ref\Cs_Pattern_Matching.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_Pattern_Matching\obj\Debug\net6.0\Cs_Pattern_Matching.genruntimeconfig.cache

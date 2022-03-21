@@ -15,55 +15,125 @@ namespace CS_NetFrwk_AllLINQ
             // nwe Employees is similar to employees but with one more property DptNo
             // insted of DeptName which is used to join with Drpartments
             Departments dpmts = new Departments();
-            Console.WriteLine("1.AscendingOrderByName\n2.DeptWiseData \n3.DesigWiseData\n" +
-                "4.sum of Salary per Dept\n5.MaxSlaryper Dept\n6.min Salary Per Dept \n" +
-                "7.Avg Salary per Dept\n8.Emps Only managers/Directors\n" +
-                "9.Emps in range 25k-75k\n10.Emp with 2ndmax Salary per Dept\n" +
-                "11.Emp of 2nd max Salary\n12.Taxes\n13.Combining Dept and Emps");
-            int choice=Convert.ToInt32(Console.ReadLine());
-            switch(choice)
+            do
             {
-                case 1:
-                    AcsendingOrderByName();
+                Console.WriteLine("1.AscendingOrderByName\n2.DeptWiseData \n3.DesigWiseData\n" +
+                 "4.sum of Salary per Dept\n5.MaxSlaryper Dept\n6.min Salary Per Dept \n" +
+                 "7.Avg Salary per Dept\n8.Emps Only managers/Directors\n" +
+                 "9.Emps in range 25k-75k\n10.Emp with 2ndmax Salary per Dept\n" +
+                 "11.Emp of 2nd max Salary\n12.Taxes\n13.Combining Dept and Emps\n14.Exit");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                if (choice == 14)
                     break;
-                case 2:
-                    DepartmentWiseData();
-                    break;
-                case 3:
-                    DesigWiseData();
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    break;
-                case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    ManagerOrDirectorInfo();
-                    break;
-                case 9:
-                    SalaryRange();
-                    break;
-                case 10:
+                switch (choice)
+                {
+                    case 1:
+                        AcsendingOrderByName();
+                        break;
+                    case 2:
+                        DepartmentWiseData();
+                        break;
+                    case 3:
+                        DesigWiseData();
+                        break;
+                    case 4:
+                        var res = (from e in emps
+                                   group e by e.DeptName into deptgroup
+                                   select new
+                                   {
+                                       DeptName = deptgroup.Key,
+                                       SumSalary = deptgroup.Sum(x => x.Salary),
+                                   });
+                        foreach (var item in res)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName} SumSalary:{item.SumSalary}");
+                        }
+                        break;
+                    case 5:
+                        var res2 = (from e in emps
+                                    group e by e.DeptName into deptgroup
+                                    select new
+                                    {
+                                        DeptName = deptgroup.Key,
+                                        MaxSalaryperson = deptgroup.OrderByDescending(x => x.Salary).Take(1),
 
-                    break;
-                case 11:
-                    MaxSalaryPerson();
-                    break;
-                case 12:
-                    TaxesDwise();
-                    break;
-                case 13:
-                    CombiningDandE();
-                    break;
-                default:
-                    Console.WriteLine("WrongChoice");
-                    break;
+                                    });
+                        foreach (var item in res2)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName}");
+                            PrintResult(item.MaxSalaryperson);
 
+                        }
+                        break;
+                    case 6:
+                        var res3 = (from e in emps
+                                    group e by e.DeptName into deptgroup
+                                    select new
+                                    {
+                                        DeptName = deptgroup.Key,
+                                        MinSalaryperson = (from e in deptgroup orderby e.Salary select e).Take(1),
+
+                                    });
+                        foreach (var item in res3)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName}");
+                            PrintResult(item.MinSalaryperson);
+
+                        }
+                        break;
+                    case 7:
+                        var res7 = (from e in emps
+                                    group e by e.DeptName into deptgroup
+                                    select new
+                                    {
+                                        DeptName = deptgroup.Key,
+                                        AverageSalary = deptgroup.Average(x => x.Salary),
+                                    });
+                        foreach (var item in res7)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName} AvgSalary:{item.AverageSalary}");
+                        }
+
+                        break;
+                    case 8:
+                        ManagerOrDirectorInfo();
+                        break;
+                    case 9:
+                        SalaryRange();
+                        break;
+                    case 10:
+                        var res10 = (from e in emps
+                                     group e by e.DeptName into deptgroup
+                                     select new
+                                     {
+                                         DeptName = deptgroup.Key,
+                                         MaxSalaryperson2 = deptgroup.OrderByDescending(x => x.Salary).Skip(1).Take(1),
+
+                                     });
+                        foreach (var item in res10)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName}");
+                            PrintResult(item.MaxSalaryperson2);
+
+                        }
+
+                        break;
+                    case 11:
+                        MaxSalaryPerson();
+                        break;
+                    case 12:
+                        TaxesDwise();
+                        break;
+                    case 13:
+                        CombiningDandE();
+                        break;
+                    default:
+                        Console.WriteLine("WrongChoice");
+                        break;
+
+                }
             }
-                    
+            while (true);    
             
             
             
