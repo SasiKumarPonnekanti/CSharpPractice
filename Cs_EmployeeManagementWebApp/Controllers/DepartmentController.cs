@@ -1,6 +1,9 @@
 ﻿using Cs_EmployeeManagementWebApp.Models;
 using Cs_EmployeeManagementWebApp.Services;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using Cs_EmployeeManagementWebApp.CustomFilters;
+using Microsoft.AspNetCore.Http;
 
 namespace Cs_EmployeeManagementWebApp.Controllers
 {
@@ -23,10 +26,43 @@ namespace Cs_EmployeeManagementWebApp.Controllers
             return View(dept);
         }
         [HttpPost]
+       
         public IActionResult Create(Department department)
         {
-            var res = deptService.CreateAsync(department).Result;
-            return RedirectToAction("Index");
+            //try
+            //{
+                var dept = deptService.GetAsync(department.DeptNo).Result;
+                if(dept != null)
+                {
+                    throw new Exception("The Department is already present");
+                }
+                if (ModelState.IsValid)
+                {
+                    var res = deptService.CreateAsync(department).Result;
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(department);
+                }
+        //}
+        //    catch(Exception ex)
+        //    {
+        //        return View("Error", new ErrorViewModel()
+        //{
+        //    ControllerName = RouteData.Values["controller"].ToString(),
+        //            Actionname = RouteData.Values["action"].ToString(),
+        //            ErrorMessage = ex.Message
+        //        });
+        //    }
+         }
+
+        public IActionResult ValidateDeptNoUnique(int DeptNo)
+        {
+            var dept = deptService.GetAsync(DeptNo).Result;
+            if (dept != null)
+                return Json(false); // invalid
+            return Json(true); // Valid 
         }
         public IActionResult Edit(int id)
         {
@@ -44,8 +80,15 @@ namespace Cs_EmployeeManagementWebApp.Controllers
         [HttpPost]
         public IActionResult Edit(int id, Department department)
         {
-            var res = deptService.UpdateAsync(id, department).Result;
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                var res = deptService.UpdateAsync(id, department).Result;
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(department);
+            }
         }
 
         /// <summary>
@@ -64,6 +107,12 @@ namespace Cs_EmployeeManagementWebApp.Controllers
         {
             var res = deptService.DeleteAsync(id).Result;
             return RedirectToAction("Index");
+        }
+
+        public IActionResult ShowEmployees(int id)
+        {
+            HttpContext.Session.SetInt32("DeptNo",id);
+           return RedirectToAction("Index","Employee");
         }
     }
 }

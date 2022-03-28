@@ -31,6 +31,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Department" asp-action="Index">DepartmentInfo</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="DeptEmp" asp-action="Index">DeptEmpInfo</a>
+                        </li>
+                       <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="FileUpload" asp-action="Index">UploadFile</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
@@ -41,6 +47,7 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+
         </main>
     </div>
 

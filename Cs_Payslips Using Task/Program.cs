@@ -14,54 +14,58 @@ namespace Cs_Payslips_Using_Task
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Employees employees = new Employees();
             var duration = Stopwatch.StartNew();
 
-            Task task = Task.Factory.StartNew(() => GenerateSlip())
+            Task task = Task.Factory.StartNew(() => GenerateSlip(employees))
                 .ContinueWith(delegate { TransferSlips(); });
 
                 
 
             Console.WriteLine($"Time to COmplete {duration.Elapsed.TotalMilliseconds}");
         }
-        public static void GenerateSlip(Employee emp)
+        public static void GenerateSlip(List<Employee> EmpList)
         {
-            string path = @$"C:\Users\Coditas\Desktop\ParallelPayslips\Salary-for-March-2022-{emp.EmpNo}.txt";
-            FileStream fs = new FileStream(path, FileMode.Create, FileAccess.ReadWrite);
-            StreamWriter sw = new StreamWriter(fs);
-            try
+            foreach (Employee emp in EmpList)
             {
-                Method(emp.Salary, emp.Designation, out int HRA, out int TS, out int DA, out int Tax, out int NetSalary);
+                string path = @$"C:\Users\Coditas\Desktop\ParallelPayslips\Salary-for-March-2022-{emp.EmpNo}.txt";
+                FileStream fs = new FileStream(path, FileMode.Create, FileAccess.ReadWrite);
+                StreamWriter sw = new StreamWriter(fs);
+                try
+                {
+                    Method(emp.Salary, emp.Designation, out int HRA, out int TS, out int DA, out int Tax, out int NetSalary);
 
-                string slip = $"|--payslip for month March- EmpNo: {emp.EmpNo} EmpName: {emp.EmpName} DeptName: {emp.DeptName} ---------\n" +
-                             $"|-----------------------------------------------------------------------------|\n" +
-                             $"|    Designation :{emp.Designation}                                           \n" +
-                              "|--------------------------------------|---------------------------------------|\n" +
-                             $"|    Income : {NetSalary}                                                     \n" +
-                              "|--------------------------------------|---------------------------------------|\n" +
-                             $"|    Basic Salary : {emp.Salary}                                              \n" +
-                              "|--------------------------------------|---------------------------------------|\n" +
-                             $"|    HRA : {HRA}                                                              \n" +
-                              "|--------------------------------------|---------------------------------------|\n" +
-                             $"|    Ts : {TS}                                                                \n" +
-                              "|--------------------------------------|---------------------------------------|\n" +
-                             $"|    DA ={DA}                            Tax ={Tax}                           \n" +
-                              "|--------------------------------------|---------------------------------------|\n" +
-                             $"| Amoount Deposited :{NetSalary} \\-                                               \n" +
-                              "---------------------------------------|---------------------------------------|\n" +
-                             $"|      {Convert(NetSalary)}  Rupees only                                     \n" +
-                              "|------------------------------------------------------------------------------|";
-                sw.Write(slip);
+                    string slip = $"|--payslip for month March- EmpNo: {emp.EmpNo} EmpName: {emp.EmpName} DeptName: {emp.DeptName} ---------\n" +
+                                 $"|-----------------------------------------------------------------------------|\n" +
+                                 $"|    Designation :{emp.Designation}                                           \n" +
+                                  "|--------------------------------------|---------------------------------------|\n" +
+                                 $"|    Income : {NetSalary}                                                     \n" +
+                                  "|--------------------------------------|---------------------------------------|\n" +
+                                 $"|    Basic Salary : {emp.Salary}                                              \n" +
+                                  "|--------------------------------------|---------------------------------------|\n" +
+                                 $"|    HRA : {HRA}                                                              \n" +
+                                  "|--------------------------------------|---------------------------------------|\n" +
+                                 $"|    Ts : {TS}                                                                \n" +
+                                  "|--------------------------------------|---------------------------------------|\n" +
+                                 $"|    DA ={DA}                            Tax ={Tax}                           \n" +
+                                  "|--------------------------------------|---------------------------------------|\n" +
+                                 $"| Amoount Deposited :{NetSalary} \\-                                               \n" +
+                                  "---------------------------------------|---------------------------------------|\n" +
+                                 $"|      {Convert(NetSalary)}  Rupees only                                     \n" +
+                                  "|------------------------------------------------------------------------------|";
+                    sw.Write(slip);
 
 
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                sw.Close();
-                fs.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    sw.Close();
+                    fs.Close();
+                }
             }
 
         }

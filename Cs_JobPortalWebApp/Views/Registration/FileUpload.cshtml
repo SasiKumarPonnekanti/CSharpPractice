@@ -1,0 +1,40 @@
+﻿@model Cs_JobPortalWebApp.Models.ProfileData
+@{
+    ViewData["Title"] = "FileUpload";
+}
+
+<h1>Upload Files</h1>
+<h2>Upload Image</h2>
+<form enctype="multipart/form-data" method="post">
+    <dl>
+        <dt>
+            <label asp-for="@Model.Image"></label>
+        </dt>
+        <dd>
+            <input asp-for="@Model.Image" type="file">
+            <span asp-validation-for="@Model.Image"></span>
+        </dd>
+         @*<div class="container">
+         @Model.ImageUploadStatus
+     </div>*@
+    </dl>
+@*</form>*@
+<h2>Upload Resume</h2>
+@*<form enctype="multipart/form-data" method="post">*@
+    <dl>
+        <dt>
+            <label asp-for="@Model.Resume"></label>
+        </dt>
+        <dd>
+            <input asp-for="@Model.Resume" type="file">
+            <span asp-validation-for="@Model.Resume"></span>
+        </dd>
+         @*<div class="container">
+         @Model.ResumeUploadStatus
+     </div>*@
+    </dl>
+     <div class="form-group">
+                <input type="submit"  value="SaveAndFinish" class="btn btn-primary" />
+            </div>
+</form>
+

@@ -26,15 +26,25 @@ namespace Cs_EmployeeManagementWebApp.Controllers
         [HttpPost]
         public IActionResult Create(User user)
         {
-            var res = userService.CreateAsync(user).Result;
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                if (user.UserId == 7)
+                    throw new System.Exception("Are Kya Yaar");
+                var res = userService.CreateAsync(user).Result;
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(user);
+            }
         }
 
         public IActionResult Edit(int id)
         {
-            var res = userService.GetAsync(id).Result;
-
-            return View(res);
+             var res = userService.GetAsync(id).Result;
+                return View(res);
+            
+            
         }
 
 

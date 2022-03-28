@@ -1,0 +1,64 @@
+﻿@model Cs_JobPortalWebApp.Models.EduInfo
+
+@{
+    ViewData["Title"] = "AddEducation";
+}
+
+<h1>AddEducation</h1>
+
+<h4>EduInfo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddEducation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="EducationType" class="control-label"></label>
+                <input asp-for="EducationType" class="form-control" />
+                <span asp-validation-for="EducationType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InstituteName" class="control-label"></label>
+                <input asp-for="InstituteName" class="form-control" />
+                <span asp-validation-for="InstituteName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Specification" class="control-label"></label>
+                <input asp-for="Specification" class="form-control" />
+                <span asp-validation-for="Specification" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Startdate" class="control-label"></label>
+                <input asp-for="Startdate" class="form-control" />
+                <span asp-validation-for="Startdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompletionDate" class="control-label"></label>
+                <input asp-for="CompletionDate" class="form-control" />
+                <span asp-validation-for="CompletionDate" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <label asp-for="Percentage" class="control-label"></label>
+                <input asp-for="Percentage" class="form-control" />
+                <span asp-validation-for="Percentage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" name ="action" value="AddOneMore" class="btn text-dark" />
+            </div>
+            <div class="form-group">
+                <input type="submit" name = "action" value="AddProjectsandExperience" class="btn text-dark" />
+            </div>
+            <h5>No Projects and Experience? Click on save and Continue</h5>
+            <div class="form-group">
+                <input type="submit" name = "action" value="SaveAndContinue" class="btn btn-primary" />
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="AddPersonalInfo">Back to List</a>
+</div>
+

@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Cs_EmployeeManagementWebApp.Models;
 using Cs_EmployeeManagementWebApp.Services;
+using Cs_EmployeeManagementWebApp.CustomFilters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,8 +35,18 @@ namespace Cs_EmployeeManagementWebApp
             services.AddScoped<IService<Department, int>, DepartmentAccess>();
             services.AddScoped<IService<Employee, int>, EmployeeAccess>();
             services.AddScoped<IService<User, int>, UserAccess>();
-
-            services.AddControllersWithViews();
+            services.AddDistributedMemoryCache();
+            services.AddSession(options=>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(20);
+            });
+            
+            services.AddControllersWithViews(options =>
+            {
+                //options.Filters.Add(new LogFilterAttribute());
+                options.Filters.Add(typeof(AppExceptionFilterAttribute));
+                options.Filters.Add(typeof(LogFilterAttribute));
+            });
 
         }
 
@@ -56,6 +67,7 @@ namespace Cs_EmployeeManagementWebApp
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseSession();
 
             app.UseAuthorization();
 

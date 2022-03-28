@@ -1,0 +1,77 @@
+Date: 02-Feb-2022
+1)Can overloading is possible by having same method name with same number and order of parameters but different in return type?
+ans)we cannot have methods of same name and parameters but differ in return type
+
+2)Can we override the private virtual method of abstract class using public method from the deriuved class?
+
+Private (virtual or abstract) members are not allowed.
+
+3)Can we have private and protected abstract and virtual methods in abstract base class?
+we can have protected abstract method but not private abstract method
+
+
+4)Can we have method overloading across base and deried classe?
+Yes we Can
+
+
+5)Can we type cast the derived class instance using the base class?
+N0
+
+
+6)Can we have public property in abstract base class?
+yes
+
+
+7)Can we have same property in base and derived class?
+yes
+
+
+8)Can we derive a public class from internal class?
+No
+
+
+9)Can we have internal virtual or abstract methods in abstract class?
+yes
+
+
+10)Can we have private or protect class?
+Elements defined in a namespace cannot be explicitly declared as private, protected, protected internal or 
+private protected.
+Type declarations in a namespace can have either public or internal access. If no accessibility is 
+specified, internal is the default.
+Inner class can be Private
+
+
+11)Can we have internal property?
+Yes We Can
+
+
+12)Can we have virtual method in not-abstract class?
+Yes
+
+13)Can we have abstract method in not-abstract class?
+A method cannot be an abstract member of a nonabstract class.
+
+14)What will happen if the derive class dows not override all abstract methods of the abstract class?
+A class is required to implement all the abstract members in the base class, unless the class is also abstract.
+
+
+15)Can we have virtual and/or abstract methods in sealed class
+function' is abstract but it is contained in nonabstract class 'class'
+    A method cannot be an abstract member of a nonabstract class.
+   A sealedclass cannot be used as a base class. Therefore, it is useless to have a virtual method in sealed class.
+
+16)Can we have sealed access modifier for method?
+we cannot use sealed keyword for method
+we can have sealed method whch we dont want to override
+
+
+
+Date :feb 4
+
+we can have Static Constructors but does not allow access modifiers and must be parameter less
+
+
+
+
+

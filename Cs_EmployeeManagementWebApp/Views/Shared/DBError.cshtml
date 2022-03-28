@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+        <h3>Hay MVC !!! This is working in Db error pageThese are Custom Errors From Cusom Exception Filter</h3>
+<p>
+    <strong>
+        Error Ocured in @ViewData["ControllerName"] in @ViewData["ActionName"] method and <br/>
+        Error Message is @ViewData["Message"]
+    </strong>
+</p>
+<hr/>
+<img src="~/images/error.jpg"   
+                         class="rounded-circle"   
+                         height="600" width="400"   
+                         asp-append-version="true" /> 
+
+
+
+<!--Link to GO BAck-->
+
+<a asp-action="@ViewData["ActionName"]" asp-controller="@ViewData["ControllerName"]">GO Back</a>    
+}

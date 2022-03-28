@@ -1,0 +1,70 @@
+﻿@model Cs_EmployeeManagementWebApp.Models.DeptEmpList
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>List of Departments and Employees</h1>
+
+<form asp-action="ShowEmps">
+                 <div class="form-group">
+                @*<input asp-for="DeptNo" class="form-control" />*@
+               <select asp-for="DeptNo"  asp-items="ViewBag.Department" class ="form-control"></select>
+                  <input type="submit" value="Getresult"  class="btn btn-primary" />
+            </div>
+            </form>
+
+
+ 
+ 
+<h2>List of Employees</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                EmpNo
+            </th>
+            <th>
+                EmpName
+            </th>
+            <th>
+                Salary
+            </th>
+            <th>
+               Designation
+            </th>
+            <th>
+               DeptName
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Employees) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Designation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeptNo)
+            </td>
+            <td>
+               @* @Html.DisplayFor(ViewBag.departement[$"{"}"])*@
+            </td>
+            
+            <td>
+               
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

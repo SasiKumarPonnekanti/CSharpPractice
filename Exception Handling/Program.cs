@@ -7,26 +7,25 @@ namespace Exception_Handling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            StreamReader streamReader = null;
+           
             try
             {
-                 streamReader = new StreamReader(@"C:\Users\Coditas\DocumentAs\C sharp.txt");
-                Console.WriteLine(streamReader.ReadToEnd());
-                streamReader.Close();
+                
+                try
+                {
+                    throw new Exception("Notfound");
+                }
+                catch(Exception ex)
+                {
+                    throw new Exception("File not found again",);
+                }
             }
-            catch (FileNotFoundException ex)
-            {
-                Console.WriteLine("plese check the file");
-
-            }
+            
             catch(Exception ex)
             {
+                Console.WriteLine(ex.Message);
             }
-            finally
-            {
-                streamReader.Close();
-            }
+            
         }
     }
    

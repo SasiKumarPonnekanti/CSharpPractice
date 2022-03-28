@@ -1,0 +1,26 @@
+1) we cannot have methods of same name and parameters but differ in return type
+2)Private virtual or abstract members are not allowed.
+3)
+4)yes Ofcourse we can 
+5)
+16) we cannot use sealed keyword for method
+15) function' is abstract but it is contained in nonabstract class 'class'
+    A method cannot be an abstract member of a nonabstract class.
+   A sealedclass cannot be used as a base class. Therefore, it is useless to have a virtual method in sealed class.
+
+14)A class is required to implement all the abstract members in the base class, unless the class is also abstract.
+
+13) A method cannot be an abstract member of a nonabstract class.
+
+12)yes
+
+11)
+
+10)Elements defined in a namespace cannot be explicitly declared as private, protected, protected internal or 
+private protected.
+Type declarations in a namespace can have either public or internal access. If no accessibility is 
+specified, internal is the default.
+
+9)
+
+

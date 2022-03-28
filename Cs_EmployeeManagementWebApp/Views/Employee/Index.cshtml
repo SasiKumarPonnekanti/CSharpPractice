@@ -5,7 +5,7 @@
 }
 
 <h1>Index</h1>
-
+ @Html.ActionLink("DisplayEmployees", "DisplayEmployees")
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -24,12 +24,16 @@
             
             <th>
                 @Html.DisplayNameFor(model => model.DeptNo)
+
+                
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Designation)
             </th>
              
-           
+           <th>
+              
+            </th>
             
             
             <th></th>
@@ -48,18 +52,23 @@
                 @Html.DisplayFor(modelItem => item.Salary)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DeptNo)
+                
+               @Html.DisplayFor(modelItem => item.DeptNo)
+          
+
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Designation)
             </td>
             <th>
-               @Html.DisplayFor(modelItem => item.Salary)
+              
             </th>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.EmpNo }) |
                 
-                @Html.ActionLink("Delete", "Delete", new { id=item.EmpNo})
+                @Html.ActionLink("Delete", "Delete", new { id=item.EmpNo})|
+
+                 
             </td>
         </tr>
 }

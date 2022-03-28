@@ -12,6 +12,7 @@
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.TextBoxFor(m => m.EmpNo, new { @data_val = "false" })
             <div class="form-group">
                 <label asp-for="EmpNo" class="control-label"></label>
                 <input asp-for="EmpNo" class="form-control" />
@@ -29,7 +30,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="DeptNo" class="control-label"></label>
-                <input asp-for="DeptNo" class="form-control" />
+                <select asp-for="DeptNo" class="form-control" asp-items=ViewBag.Department ></select>
                 <span asp-validation-for="DeptNo" class="text-danger"></span>
             </div>
             <div class="form-group">

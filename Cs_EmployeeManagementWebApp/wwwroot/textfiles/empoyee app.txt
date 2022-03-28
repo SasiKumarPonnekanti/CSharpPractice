@@ -1,0 +1,252 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+
+namespace Employee_App.models
+{
+    internal class Client
+    {
+        public  EmployeeOperations opt = new EmployeeOperations();
+        public bool validateEmpNo(int data)
+        {
+            bool flag1, flag2;
+            flag1 = opt.SearchEmployee(data, out int? index);
+            flag2 = data > 0;
+
+            return !flag1 && flag2;
+        }
+        public bool validateEmpname(string name)
+        {
+            bool flag = false;
+            Regex p = new Regex("^[A-Z][a-z0-9_-]{3,19}$");
+            Match m = p.Match(name);   
+            if (m.Success)
+                flag = true;
+            else
+                flag = false;
+            return flag;
+        }
+        public void Delete()
+        {
+            Console.WriteLine("Enter The Employee Number");
+            int id = Convert.ToInt32(Console.ReadLine());           
+            opt. DeleteEmployee(id);             
+        }
+        public void Search()
+        {
+            Console.WriteLine("Enter The Employee Number to search");
+            int id = Convert.ToInt32(Console.ReadLine());
+             Console.WriteLine($"The Employee  found is {opt.SearchEmployee( id, out int? index)}");
+           
+
+        }
+        public Employee Create(int id, string empname, string dptname, string Designation, int salary)
+        {
+            Employee temp = new Employee();
+            temp.EmpNo = id;
+            temp.EmpName = empname;
+            temp.DeptName = dptname;
+            temp.Designation = Designation;
+            temp.Salary = salary;         
+            return temp;
+
+        }
+        public void Entry(string choice)
+        {
+            try
+            {
+                Console.WriteLine("Enter Employee Number which is Non Negative");
+                int Id = Convert.ToInt32(Console.ReadLine());
+
+
+                if (!validateEmpNo(Id))
+                {                   
+                        throw new Exception("Employee No is not valid or may be repeated");                   
+                }
+
+
+                Console.WriteLine("Enter Employee Name");
+                string name = Console.ReadLine();
+                if(!validateEmpname(name))
+                {
+                    throw new Exception("Employee Name is not in correct format");
+                }
+                string DeprtName = Dropdown("Department");
+                string desgntn = Dropdown("Designation");
+               
+               
+                Console.WriteLine("Enter Employee Salary");
+                int salary= Convert.ToInt32(Console.ReadLine());
+                if(salary<0)
+                {
+                    throw new Exception("salary cannot be negative");
+                }
+                Employee emp = Create(Id,name, DeprtName, desgntn,salary);
+                switch(choice)
+                {
+                    case "Add":
+                        opt.AddEmployee(emp);
+                        break;
+                    case "Update":
+                        Console.WriteLine("enter employee id at which you want to update this info");
+                        int UpdId = Convert.ToInt32(Console.ReadLine());
+                        opt.UpdateEmployee(UpdId,emp);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        public void Display()
+        {
+            Console.WriteLine("1.Total data 2.Department wise 3.Designation wise");
+            int choice = Convert.ToInt32(Console.ReadLine());
+            switch(choice)
+            {
+                case 1:
+                    foreach (Employee emp in opt.GetEmployees())
+                    {
+                        Console.WriteLine("Empno\tEmpName\tDepartment Designation\tSalary");
+                        Console.WriteLine($"{emp.EmpNo}\t{emp.EmpName}\t{emp.DeptName}\t   {emp.Designation}\t{emp.Salary}");
+                        Console.WriteLine("----------------------------------");
+                    }
+                   
+                    break;
+                case 2:
+                    string DeprtName = Dropdown("Department");                 
+                    foreach (KeyValuePair<string, string> kvp in EmployeeOperations.DptWiseList)
+                        {
+                            if (kvp.Value == DeprtName)
+                            {
+                                Console.WriteLine($"Name = {kvp.Key}, Department= {kvp.Value}");
+                            }
+                        }
+                    break;
+                case 3:
+                    string desgntn = Dropdown("Designation");
+                    
+                    foreach (KeyValuePair<string, string> kvp in EmployeeOperations.DesigWiseList)
+                    {
+                        if (kvp.Value == desgntn)
+                        {
+                            Console.WriteLine($"Name = {kvp.Key}, Designation= {kvp.Value}");
+                        }
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Wrong Choice");
+                    break;
+
+            }           
+        }
+        public string Dropdown(string type)
+        {
+            string output="";
+            if (type=="Department")
+            {
+                Console.WriteLine("Enter Choic of Department 1)IT, 2)HRD, 3)Sales, 4)Admin, 5)Account");
+                int CoiceOfDepart = Convert.ToInt32(Console.ReadLine());
+                switch (CoiceOfDepart)
+                {
+                    case 1:
+                        output = "IT";
+                        break;
+                    case 2:
+                        output = "HRD";
+                        break;
+                    case 3:
+                        output = "Sales";
+                        break;
+                    case 4:
+                        output = "Admin";
+                        break;
+                    case 5:
+                        output = "Account";
+                        break;
+                    default:
+                        throw new Exception("The Department choice is wrong");
+
+                }
+            }
+            if(type == "Designation")
+            {
+                Console.WriteLine("Enter Choic of Designation 1) Manager, 2)Engineer, 3)Clerk, 4)Staff");
+                int CoiceOfDesign = Convert.ToInt32(Console.ReadLine());
+                switch (CoiceOfDesign)
+                {
+                    case 1:
+                        output = "Manager";
+                        break;
+                    case 2:
+                        output = "Engineer";
+                        break;
+                    case 3:
+                        output = "Clerk";
+                        break;
+                    case 4:
+                        output = "Staff";
+                        break;
+                    default:
+                        throw new Exception("The Designation choice is wrong");
+
+                }
+            }
+            return output;
+        } 
+        public void Add()
+        {
+           
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ public void UpdateEmployee(int empNo,Employee UpdateInfo)
+        {
+            try
+            {
+                if (SearchEmployee(empNo, out int? Index))
+                {
+                    int index = (int)Index;
+                    // Employees.Insert(index, UpdateInfo);
+                    Employees[index]=UpdateInfo;
+                    DptWiseList.Add(UpdateInfo.EmpName,UpdateInfo.DeptName);
+                    DesigWiseList.Add(UpdateInfo.EmpName,UpdateInfo.Designation);
+
+                }
+                else
+                {
+                    throw new Exception("The employee Not found");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
+        }
