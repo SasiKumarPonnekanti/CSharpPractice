@@ -1,5 +1,7 @@
 ﻿using Cs_JobPortalWebApp.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Cs_JobPortalWebApp.Services
@@ -23,9 +25,10 @@ namespace Cs_JobPortalWebApp.Services
             throw new System.NotImplementedException();
         }
 
-        Task<IEnumerable<ProjectInfo>> IService<ProjectInfo, int>.GetAsync()
+       async  Task<IEnumerable<ProjectInfo>> IService<ProjectInfo, int>.GetAllByIdAsync(int id)
         {
-            throw new System.NotImplementedException();
+            var res = await ctx.ProjectInfos.Where(p => p.PersonId == id).ToListAsync();
+            return res;
         }
 
         Task<ProjectInfo> IService<ProjectInfo, int>.GetAsync(int id)
@@ -39,13 +42,13 @@ namespace Cs_JobPortalWebApp.Services
         }
         async Task<List<ProjectInfo>> IService<ProjectInfo, int>.AddList(List<ProjectInfo> list, int id)
         {
-            if (list.Count != 0)
+            if (list != null)
             {
                 foreach (ProjectInfo entity in list)
                 {
                     entity.PersonId = id;
                 }
-                await ctx.AddRangeAsync(list);
+                await ctx.ProjectInfos.AddRangeAsync(list);
                 await ctx.SaveChangesAsync();
             }
             return null;

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Hosting;
 using Cs_JobPortalWebApp.Services;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Cs_JobPortalWebApp.Controllers
 {
@@ -35,6 +36,11 @@ namespace Cs_JobPortalWebApp.Controllers
         public IActionResult AddPersonalInfo()
         {
             Personal NewPerson = new Personal();
+            List<SelectListItem> items = new List<SelectListItem>();
+            items.Add(new SelectListItem { Text = "Male", Value = "Male" });
+            items.Add(new SelectListItem { Text = "Female", Value = "Female" });
+            items.Add(new SelectListItem { Text = "Trans", Value = "TransGender" });
+            ViewBag.Gender = items;
 
             return View(NewPerson);
         }
@@ -42,12 +48,20 @@ namespace Cs_JobPortalWebApp.Controllers
         public IActionResult AddPersonalInfo(Personal person)
         {
             HttpContext.Session.SetObject<Personal>("Personal", person);
-             return RedirectToAction("AddEducation", "Registration"); ;
+            
+            return RedirectToAction("AddEducation", "Registration"); ;
         }
 
 
         public IActionResult AddEducation()
         {
+            List<SelectListItem> items = new List<SelectListItem>();
+            items.Add(new SelectListItem { Text = "School", Value = "SSC" });
+            items.Add(new SelectListItem { Text = "Deploma", Value = "Dipoma" });
+            items.Add(new SelectListItem { Text = "Intermediate", Value = "Intermediate" });
+            items.Add(new SelectListItem { Text = "PostGraduation", Value = "PG" });
+            items.Add(new SelectListItem { Text = "UnderGraduation", Value = "UG" });
+            ViewBag.EduTypes = items;
             EduInfo education = new EduInfo();
             return View(education); 
         }
@@ -127,7 +141,7 @@ namespace Cs_JobPortalWebApp.Controllers
         [HttpPost]
         public IActionResult AddExperience(CampanyInfo campany,string action)
         {
-            var campanies = HttpContext.Session.GetObject<List<CampanyInfo>>("Projects");
+            var campanies = HttpContext.Session.GetObject<List<CampanyInfo>>("campanies");
             if (campanies == null)
             {
                 campanies = new List<CampanyInfo>();
@@ -189,7 +203,7 @@ namespace Cs_JobPortalWebApp.Controllers
                         // Create a File into the folder
                         await Image.CopyToAsync(fs);
                     }
-                    data.ImageFileName = Image.FileName;
+                    data.ImageFileName = finalPath;
                     data.ImageUploadStatus = "Uploaded Successfully";
                 }
                 else
@@ -204,7 +218,7 @@ namespace Cs_JobPortalWebApp.Controllers
                         // Create a File into the folder
                         await Resume.CopyToAsync(fs);
                     }
-                    data.ResumeFileName = Resume.FileName;
+                    data.ResumeFileName = finalPath;
                     data.ResumeUploadStatus = "Uploaded Successfully";
                 }
                 else

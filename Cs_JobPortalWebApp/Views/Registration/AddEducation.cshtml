@@ -15,7 +15,8 @@
             
             <div class="form-group">
                 <label asp-for="EducationType" class="control-label"></label>
-                <input asp-for="EducationType" class="form-control" />
+                @*<input asp-for="EducationType" class="form-control" />*@
+                <select asp-for="EducationType" class ="form-control" asp-items=ViewBag.EduTypes></select>
                 <span asp-validation-for="EducationType" class="text-danger"></span>
             </div>
             <div class="form-group">

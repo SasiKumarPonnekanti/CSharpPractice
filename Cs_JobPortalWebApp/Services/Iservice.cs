@@ -5,7 +5,7 @@ namespace Cs_JobPortalWebApp.Services
 {
     public interface IService<TEntity, in TPk> where TEntity : class
     {
-        Task<IEnumerable<TEntity>> GetAsync();
+        Task<IEnumerable<TEntity>> GetAllByIdAsync(TPk Id);
         Task<TEntity> GetAsync(TPk id);
         Task<TEntity> CreateAsync(TEntity entity);
         Task<TEntity> UpdateAsync(TPk id, TEntity entity);

@@ -1,4 +1,5 @@
 ﻿using Cs_JobPortalWebApp.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -24,14 +25,14 @@ namespace Cs_JobPortalWebApp.Services
             throw new System.NotImplementedException();
         }
 
-        Task<IEnumerable<Personal>> IService<Personal, int>.GetAsync()
+        async Task<IEnumerable<Personal>> IService<Personal, int>.GetAllByIdAsync(int id)
         {
-            throw new System.NotImplementedException();
+            return await ctx.Personals.ToListAsync();
         }
 
-        Task<Personal> IService<Personal, int>.GetAsync(int id)
+        async Task<Personal> IService<Personal, int>.GetAsync(int id)
         {
-            throw new System.NotImplementedException();
+            return await ctx.Personals.FindAsync(id);
         }
 
         Task<Personal> IService<Personal, int>.UpdateAsync(int id, Personal entity)

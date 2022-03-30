@@ -146,4 +146,6 @@ C:\Users\Coditas\Desktop\C#programmes\Cs_JobPortalWebApp\obj\Debug\net5.0\Razor\
 C:\Users\Coditas\Desktop\C#programmes\Cs_JobPortalWebApp\obj\Debug\net5.0\Razor\Views\Registration\AddProject.cshtml.g.cs
 C:\Users\Coditas\Desktop\C#programmes\Cs_JobPortalWebApp\obj\Debug\net5.0\Razor\Views\Registration\FileUpload.cshtml.g.cs
 C:\Users\Coditas\Desktop\C#programmes\Cs_JobPortalWebApp\obj\Debug\net5.0\Razor\Views\Registration\AddExperience.cshtml.g.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_JobPortalWebApp\obj\Debug\net5.0\Razor\Views\ViewData\Index.cshtml.g.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_JobPortalWebApp\obj\Debug\net5.0\Razor\Views\ViewData\ShowDetails.cshtml.g.cs
 C:\Users\Coditas\Desktop\C#programmes\Cs_JobPortalWebApp\obj\Debug\net5.0\Cs_JobPortalWebApp.csproj.AssemblyReference.cache
