@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Cs_JobPortalWebApp.Models.FullInfo>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+             <th>
+                Highest Education
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagePath)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HighestEducation)
+            </td>
+            <td>
+                <img src="~/images/@item.ImagePath"   
+                         class="rounded-circle"   
+                         height="140" width="140"   
+                         asp-append-version="true" /> 
+            </td>
+            <td>
+                 @Html.ActionLink("ShowDetails", "ShowDetails", new { id=item.PersonId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
