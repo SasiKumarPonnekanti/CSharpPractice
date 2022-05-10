@@ -1,0 +1,13 @@
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\bin\Debug\net6.0\DBFirstLibrary.deps.json
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\bin\Debug\net6.0\DBFirstLibrary.dll
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\bin\Debug\net6.0\ref\DBFirstLibrary.dll
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\bin\Debug\net6.0\DBFirstLibrary.pdb
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\DBFirstLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\DBFirstLibrary.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\DBFirstLibrary.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\DBFirstLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\DBFirstLibrary.dll
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\ref\DBFirstLibrary.dll
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\DBFirstLibrary.pdb
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\bin\Debug\net6.0\DBFirstLibrary.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\DBFirstLibrary\obj\Debug\net6.0\DBFirstLibrary.genruntimeconfig.cache

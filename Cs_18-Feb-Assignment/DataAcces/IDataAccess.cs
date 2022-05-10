@@ -10,8 +10,8 @@ namespace Cs_18_Feb_Assignment.DataAcces
     {
         IEnumerable<TEntity> GetData();
         TEntity GetData(TPk id);
-        TEntity Create(TEntity entity);
-        TEntity Update(TPk id, TEntity entity);
+        void Create(TEntity entity);
+        void Update(TPk id, TEntity entity);
         TEntity Delete(TPk id);
 
 

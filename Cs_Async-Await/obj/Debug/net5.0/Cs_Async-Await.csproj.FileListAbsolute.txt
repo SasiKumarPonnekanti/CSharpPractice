@@ -1,5 +1,0 @@
-C:\Users\Coditas\Desktop\C#programmes\Cs_Async-Await\obj\Debug\net5.0\Cs_Async-Await.csproj.AssemblyReference.cache
-C:\Users\Coditas\Desktop\C#programmes\Cs_Async-Await\obj\Debug\net5.0\Cs_Async-Await.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Coditas\Desktop\C#programmes\Cs_Async-Await\obj\Debug\net5.0\Cs_Async-Await.AssemblyInfoInputs.cache
-C:\Users\Coditas\Desktop\C#programmes\Cs_Async-Await\obj\Debug\net5.0\Cs_Async-Await.AssemblyInfo.cs
-C:\Users\Coditas\Desktop\C#programmes\Cs_Async-Await\obj\Debug\net5.0\Cs_Async-Await.csproj.CoreCompileInputs.cache

@@ -1,4 +1,6 @@
 ﻿global using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Cs_CoreWebApi.Models
 {
     public class Category
@@ -12,7 +14,9 @@ namespace Cs_CoreWebApi.Models
         [StringLength(100)]
         public string? CategoryName { get; set; }
         [Required]
+
         [NonNegative]
+
         public int BasePrice { get; set; }  
 
         public ICollection<Product>? Products { get; set; }
@@ -33,21 +37,44 @@ namespace Cs_CoreWebApi.Models
         [Required]      
         public int CatogeryRowId { get; set; } 
         public Category? category { get; set; }  
+
         public int Price { get; set; }
     }
 
     public class LogInfo
     {
-
+        [Key]
          public int RequestID { get; set; }
+        [Required]
+        [StringLength(100)]
         public string? ControllerName { get; set; }
-
-
+        [Required]
+        [StringLength(100)]
+        public string RequestMethodType { get; set; }
+        [Column(TypeName = "Date")]
         public DateOnly Date { get; set; }
         public TimeOnly? Time { get; set;}
     }
     public class ErrorLogs
     {
+        [Key]
+        public int RequestId { get; set; }
+        [Required]
+        [StringLength(100)]
+        public string ControllerName { get; set; }
+        [Required]
+        [StringLength(100)]
+        public string RequestMethodType { get; set; }
+        [Column(TypeName = "Date")]
+        public DateOnly? Date { get; set; }
+        public TimeOnly? Time { get; set; }
+        [Required]
+        [StringLength(200)]
+        public string ErrorMessage { get; set; }
+        [Required]
+        [StringLength(200)]
+
+        public string StackTrace { get; set; }
 
     }
 }

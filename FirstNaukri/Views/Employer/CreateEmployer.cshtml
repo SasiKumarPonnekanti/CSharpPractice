@@ -1,0 +1,91 @@
+﻿@model FirstNaukri.Models.Employer
+@{
+    ViewData["Title"] = "CreateEmployer";
+}
+
+<h1>Register</h1>
+
+
+<h2>Employer Info</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddPersonalInfo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="EmployerName" class="control-label"></label>
+                <input asp-for="EmployerName" class="form-control" />
+                <span asp-validation-for="EmployerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Designation" class="control-label"></label>
+               @* <input asp-for="Designation" class="form-control" />*@
+                <select asp-for="Designation" class ="form-control" asp-items=ViewBag.Gender></select>
+                <span asp-validation-for="Designation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact" class="control-label"></label>
+                <input asp-for="Contact" class="form-control" />
+                <span asp-validation-for="Contact" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <h2>CampanyInfo</h2>
+            <div class="form-group">
+                <label asp-for="OrgName" class="control-label"></label>
+                <input asp-for="OrgName" class="form-control" />
+                <span asp-validation-for="OrgName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrgType" class="control-label"></label>
+                <input asp-for="OrgType" class="form-control" />
+                <span asp-validation-for="OrgType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sector" class="control-label"></label>
+                <input asp-for="Sector" class="form-control" />
+                <span asp-validation-for="Sector" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrgContact" class="control-label"></label>
+                <input asp-for="OrgContact" class="form-control" />
+                <span asp-validation-for="OrgContact" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="OrgEmail" class="control-label"></label>
+                <input asp-for="OrgEmail" class="form-control" />
+                <span asp-validation-for="OrgEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrgAddress" class="control-label"></label>
+                <input asp-for="OrgAddress" class="form-control" />
+                <span asp-validation-for="OrgAddress" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="State" class="control-label"></label>
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="WebAddress" class="control-label"></label>
+                <input asp-for="WebAddress" class="form-control" />
+                <span asp-validation-for="WebAddress" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="SaveAndContinue" class="btn btn-primary" />
+                
+            </div>
+        </form>
+    </div>
+</div>
+

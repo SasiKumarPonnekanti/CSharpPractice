@@ -1,0 +1,2 @@
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\win-x64\publish\cs_Using Publish.pdb
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\win-x64\publish\cs_Using Publish.exe

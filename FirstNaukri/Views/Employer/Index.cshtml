@@ -1,0 +1,62 @@
+﻿@model FirstNaukri.Models.Employer
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Employer Details</h1>
+
+<table style="width:100%">
+ 
+  <tr>
+    <td>FullName</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.EmployerName)</td>
+  </tr>
+  <tr>
+    <td>Designation</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.Designation)</td>
+  </tr>
+   <tr>
+    <td>Contact</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.Contact)</td>
+  </tr>
+   <tr>
+    <td>Email</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.Email)</td>
+  </tr>  
+   <tr>
+    <td>Address</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.Address)</td>
+  </tr>
+ 
+</table>
+
+<h1>Campany Details</h1>
+
+<table style="width:100%">
+ 
+  <tr>
+    <td>Name</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.OrgEmail)</td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.OrgType)</td>
+  </tr>
+   <tr>
+    <td>Sector</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.Sector)</td>
+  </tr>
+   <tr>
+    <td>Address</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.OrgAddress)</td>
+  </tr>  
+   <tr>
+    <td>State</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.State)</td>
+  </tr>
+   <tr>
+    <td>WeAdress</td>
+    <td style="text-align:center"> @Html.DisplayFor(modelItem => Model.WebAddress)</td>
+  </tr>
+ 
+</table>

@@ -33,11 +33,20 @@ namespace Cs_18_Feb_Assignment
                 pDeptName.Value = dname;
                 Cmd.Parameters.Add(pDeptName);
                 SqlDataReader Reader = Cmd.ExecuteReader();
-                Console.WriteLine($"Employees that belong to {dname} are");
-                while (Reader.Read())
+                if (Reader.HasRows)
                 {
-                    Console.WriteLine(Reader[1]);
+                    Console.WriteLine($"Employees that belong to {dname} are");
+                    while (Reader.Read())
+                    {
+                       
+                        Console.WriteLine(Reader[1]);
+                    }
                 }
+                else
+                {
+                    Console.WriteLine($"Department  {dname} is not found");
+                }
+
             }
             catch (Exception ex)
             {
@@ -58,17 +67,25 @@ namespace Cs_18_Feb_Assignment
             Cmd = new SqlCommand();
             Conn.Open();
             Cmd.Connection= Conn;
-            Cmd.CommandText = "select max(salary) ,EmpName from Employee join Department on  Employee.DeptNo = DEpartment.DeptNo where DeptName=@DeptName";
+            Cmd.CommandText = "select top 1 * from Employee join Department on Employee.DeptNo=Department.DeptNo where DeptName=@DeptName order  by  Salary Desc";
             SqlParameter pDeptName = new SqlParameter();
             pDeptName.ParameterName = "@DeptName";
             pDeptName.SqlDbType = SqlDbType.VarChar;
             pDeptName.Direction = ParameterDirection.Input;
             pDeptName.Value = dname;
             Cmd.Parameters.Add(pDeptName);
-            SqlDataReader Reader = Cmd.ExecuteReader(); 
-            while(Reader.Read())
+            SqlDataReader Reader = Cmd.ExecuteReader();
+            if (Reader.HasRows)
             {
-                Console.WriteLine($"{Reader[0]}");
+                Console.WriteLine($"Person with max Salary in the Department  Is");
+                while (Reader.Read())
+                {
+                    Console.WriteLine($"EmpNo:{Reader[0]}Empname:{Reader[1]}Salary:{Reader[2]}Designation:{Reader[4]}Department:{Reader[6]}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Department Not Found");
             }
 
         }
@@ -88,10 +105,18 @@ namespace Cs_18_Feb_Assignment
                 pLocation.Value = location;
                 Cmd.Parameters.Add(pLocation);
                 SqlDataReader Reader = Cmd.ExecuteReader();
-                Console.WriteLine($"Employees that belong to {location} are");
-                while (Reader.Read())
+               
+                if (Reader.HasRows)
                 {
-                    Console.WriteLine(Reader[1]);
+                    Console.WriteLine($"Employees that belong to {location} are");
+                    while (Reader.Read())
+                    {
+                        Console.WriteLine(Reader[1]);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("There are no Employees in the location");
                 }
             }
             catch (Exception ex)
@@ -124,10 +149,16 @@ namespace Cs_18_Feb_Assignment
                 pDeptName.Value = dname;
                 Cmd.Parameters.Add(pDeptName);
                 SqlDataReader Reader = Cmd.ExecuteReader();
-                Console.WriteLine($"Sum of Slaries of {dname} Department is ");
                 while (Reader.Read())
                 {
-                    Console.WriteLine(Reader[0]);
+                    if (!Reader.IsDBNull(0))
+                    {
+                        Console.WriteLine($"Sum of Slaries of {dname} Department is ");
+                        Console.WriteLine(Reader[0]);
+                    }
+                    else
+                        Console.WriteLine("Department Not Found ");
+
                 }
             }
             catch (Exception ex)

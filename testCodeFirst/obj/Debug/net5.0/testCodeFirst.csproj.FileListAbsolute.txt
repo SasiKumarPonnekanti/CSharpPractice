@@ -1,0 +1,5 @@
+C:\Users\Coditas\Desktop\C#programmes\testCodeFirst\obj\Debug\net5.0\testCodeFirst.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\testCodeFirst\obj\Debug\net5.0\testCodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\testCodeFirst\obj\Debug\net5.0\testCodeFirst.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\testCodeFirst\obj\Debug\net5.0\testCodeFirst.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\testCodeFirst\obj\Debug\net5.0\testCodeFirst.csproj.CoreCompileInputs.cache

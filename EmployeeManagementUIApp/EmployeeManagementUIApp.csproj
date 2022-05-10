@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <PublishTrimmed>true</PublishTrimmed>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DBFirstLibrary">
+      <HintPath>..\DBFirstLibrary\bin\Debug\net6.0\DBFirstLibrary.dll</HintPath>
+      <CopyLocal>true</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameWorkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameWorkCore.SqlServer" Version="6.0.3" />
+  </ItemGroup>
+
+</Project>

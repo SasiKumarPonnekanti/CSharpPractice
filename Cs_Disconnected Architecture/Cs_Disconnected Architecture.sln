@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel Pay slips", "..\Parallel Pay slips\Parallel Pay slips.csproj", "{441AAC62-9E81-461C-A0C7-0B920F2545EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parallel Pay slips", "..\Parallel Pay slips\Parallel Pay slips.csproj", "{441AAC62-9E81-461C-A0C7-0B920F2545EA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cs.LINQ Assignment", "..\Cs.LINQ Assignment\Cs.LINQ Assignment.csproj", "{5473235D-7A25-48F4-BC69-1ECA59D38F4A}"
 EndProject
@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cs_Connected architecture",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryAssignment", "..\DirectoryAssignment\DirectoryAssignment.csproj", "{3AA6344B-377D-40EE-9CF7-FC3D1337D038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cs_Threading", "..\Cs_Threading\Cs_Threading.csproj", "{FF66BC6F-6EAC-4FDC-994E-A53BA94D6D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cs_Threading", "..\Cs_Threading\Cs_Threading.csproj", "{FF66BC6F-6EAC-4FDC-994E-A53BA94D6D79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cs_Async-Await", "..\Cs_Async-Await\Cs_Async-Await.csproj", "{3C7BBD09-0B18-4134-9D01-8C25323D1229}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test3", "..\test3\test3.csproj", "{97058F8A-4854-4981-A1C4-7839BED89E89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{FF66BC6F-6EAC-4FDC-994E-A53BA94D6D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF66BC6F-6EAC-4FDC-994E-A53BA94D6D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF66BC6F-6EAC-4FDC-994E-A53BA94D6D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7BBD09-0B18-4134-9D01-8C25323D1229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7BBD09-0B18-4134-9D01-8C25323D1229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7BBD09-0B18-4134-9D01-8C25323D1229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7BBD09-0B18-4134-9D01-8C25323D1229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97058F8A-4854-4981-A1C4-7839BED89E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97058F8A-4854-4981-A1C4-7839BED89E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97058F8A-4854-4981-A1C4-7839BED89E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97058F8A-4854-4981-A1C4-7839BED89E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

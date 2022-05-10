@@ -58,3 +58,7 @@ C:\Users\Coditas\Desktop\C#programmes\Cs_CoreWebApi\obj\Debug\net6.0\Cs_CoreWebA
 C:\Users\Coditas\Desktop\C#programmes\Cs_CoreWebApi\obj\Debug\net6.0\ref\Cs_CoreWebApi.dll
 C:\Users\Coditas\Desktop\C#programmes\Cs_CoreWebApi\obj\Debug\net6.0\Cs_CoreWebApi.pdb
 C:\Users\Coditas\Desktop\C#programmes\Cs_CoreWebApi\obj\Debug\net6.0\Cs_CoreWebApi.genruntimeconfig.cache
+<<<<<<< HEAD
+=======
+C:\Users\Coditas\Desktop\C#programmes\Cs_CoreWebApi\obj\Debug\net6.0\Cs_CoreWebApi.csproj.AssemblyReference.cache
+>>>>>>> master

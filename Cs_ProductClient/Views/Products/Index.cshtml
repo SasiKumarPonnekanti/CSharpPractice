@@ -1,0 +1,77 @@
+﻿@model Cs_ProductClient.Models.ProductList
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <form asp-action="showproducts">
+                 <div class="form-group">
+                <input asp-for="CategoryName" class="form-control" />
+               
+                  <input type="submit" value="Getresult"  class="btn btn-primary" />
+            </div>
+            </form>
+</p>
+
+<h2>List of Products</h2>
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>
+                ProductName
+            </th>
+            <th>
+                ProductId
+            </th>
+            <th>
+               Description
+            </th>
+            <th>
+               Price
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+ <tbody>
+@if(Model.products.Count()==0)
+{
+        <th>
+                Producs Not Found
+            </th>    
+}
+ @if(Model.products!=null)
+{
+
+     @foreach (var item in Model.products) {
+        <tr>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            
+            
+            <td>
+               
+            </td>
+        </tr>
+            }
+
+}
+        
+
+    </tbody>
+</table>

@@ -1,0 +1,51 @@
+Date: 09-Feb-2022
+Create an Employee Collection with at least 50 Records with properties as
+
+EmpNo, EmpName, DeptName, Salary, Designation
+Perform Following Report Generation on the Employees Collection
+
+Print All Employees In Ascending Order of the EmpName  Y
+Print All Employees Group by the DeptName, and also display Employee Count for each DeptName Y
+Find out Sum of Salary for Employess per DeptName Y
+Print Employee with Max Salary Per DeptName Y
+Print Employee with Min Salary Per DeptName Y
+Print Average Salary Per DeptName Y
+Print Employees by Designation Group Y
+Display All EMployees those are Managers, Directors only Y
+Print All EMployees Having Salary in Range 25000 to 75000  Y
+Print Employee with Second MAx Salary Per DeptName --------Y
+
+Print Employee with Second Max Salary Y
+
+
+
+Calculate Tax for Each Employee as followa
+Salary from >=20K to <=40K is 0.05%
+Salary from >40K to <=60K is 0.1%
+Salary <20K is 0
+Salary >60K is 0.15%
+
+Print All these Salaries DeptName Wise ---Y
+
+
+
+
+Create a Department Collection with 10 Records as
+
+DeptNo, DeptName, Location, Capacity
+Modify the Employee Collection and use DeptNo instead of DeptName
+
+List Employes as
+EmpNo, EmpName, Designation, DeptName, Location, Salary
+
+
+Self-Study
+
+Read about Following Operator Method
+Fisrt(), FirstOrDefault()
+Last(), LastOrDefault()
+Count()
+(Optional)
+GroupJoin()
+ToLookUp()
+OfType()

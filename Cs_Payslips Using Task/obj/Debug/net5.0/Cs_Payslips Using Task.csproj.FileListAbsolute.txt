@@ -1,0 +1,16 @@
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.csproj.AssemblyReference.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\bin\Debug\net5.0\Cs_Payslips Using Task.exe
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\bin\Debug\net5.0\Cs_Payslips Using Task.deps.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\bin\Debug\net5.0\Cs_Payslips Using Task.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\bin\Debug\net5.0\Cs_Payslips Using Task.runtimeconfig.dev.json
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\bin\Debug\net5.0\Cs_Payslips Using Task.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\bin\Debug\net5.0\ref\Cs_Payslips Using Task.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\bin\Debug\net5.0\Cs_Payslips Using Task.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\ref\Cs_Payslips Using Task.dll
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.pdb
+C:\Users\Coditas\Desktop\C#programmes\Cs_Payslips Using Task\obj\Debug\net5.0\Cs_Payslips Using Task.genruntimeconfig.cache

@@ -12,20 +12,134 @@ namespace CS_NetFrwk_AllLINQ
         {
             Employees emps = new Employees();
             NEmployees nemps = new NEmployees();
-            // nwe Employees is similar to employees but with one more property DptNo insted of DeptName which is used to join with Drpartments
+            // nwe Employees is similar to employees but with one more property DptNo
+            // insted of DeptName which is used to join with Drpartments
             Departments dpmts = new Departments();
-            //  Created a method for each Sttement and calling them 
-            AcsendingOrderByName();
-            DepartmentWiseData();
-            DepartmentWiseData();
-            DesigWiseData();
-            ManagerOrDirectorInfo();
-            SalaryRange();
-            SalariesDepartmentWise();
-            MaxSalaryPerson();
-            AllTaxes();
-            TaxesDwise();
-            CombiningDandE();
+            do
+            {
+                Console.WriteLine("1.AscendingOrderByName\n2.DeptWiseData \n3.DesigWiseData\n" +
+                 "4.sum of Salary per Dept\n5.MaxSlaryper Dept\n6.min Salary Per Dept \n" +
+                 "7.Avg Salary per Dept\n8.Emps Only managers/Directors\n" +
+                 "9.Emps in range 25k-75k\n10.Emp with 2ndmax Salary per Dept\n" +
+                 "11.Emp of 2nd max Salary\n12.Taxes\n13.Combining Dept and Emps\n14.Exit");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                if (choice == 14)
+                    break;
+                switch (choice)
+                {
+                    case 1:
+                        AcsendingOrderByName();
+                        break;
+                    case 2:
+                        DepartmentWiseData();
+                        break;
+                    case 3:
+                        DesigWiseData();
+                        break;
+                    case 4:
+                        var res = (from e in emps
+                                   group e by e.DeptName into deptgroup
+                                   select new
+                                   {
+                                       DeptName = deptgroup.Key,
+                                       SumSalary = deptgroup.Sum(x => x.Salary),
+                                   });
+                        foreach (var item in res)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName} SumSalary:{item.SumSalary}");
+                        }
+                        break;
+                    case 5:
+                        var res2 = (from e in emps
+                                    group e by e.DeptName into deptgroup
+                                    select new
+                                    {
+                                        DeptName = deptgroup.Key,
+                                        MaxSalaryperson = deptgroup.OrderByDescending(x => x.Salary).Take(1),
+
+                                    });
+                        foreach (var item in res2)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName}");
+                            PrintResult(item.MaxSalaryperson);
+
+                        }
+                        break;
+                    case 6:
+                        var res3 = (from e in emps
+                                    group e by e.DeptName into deptgroup
+                                    select new
+                                    {
+                                        DeptName = deptgroup.Key,
+                                        MinSalaryperson = (from e in deptgroup orderby e.Salary select e).Take(1),
+
+                                    });
+                        foreach (var item in res3)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName}");
+                            PrintResult(item.MinSalaryperson);
+
+                        }
+                        break;
+                    case 7:
+                        var res7 = (from e in emps
+                                    group e by e.DeptName into deptgroup
+                                    select new
+                                    {
+                                        DeptName = deptgroup.Key,
+                                        AverageSalary = deptgroup.Average(x => x.Salary),
+                                    });
+                        foreach (var item in res7)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName} AvgSalary:{item.AverageSalary}");
+                        }
+
+                        break;
+                    case 8:
+                        ManagerOrDirectorInfo();
+                        break;
+                    case 9:
+                        SalaryRange();
+                        break;
+                    case 10:
+                        var res10 = (from e in emps
+                                     group e by e.DeptName into deptgroup
+                                     select new
+                                     {
+                                         DeptName = deptgroup.Key,
+                                         MaxSalaryperson2 = deptgroup.OrderByDescending(x => x.Salary).Skip(1).Take(1),
+
+                                     });
+                        foreach (var item in res10)
+                        {
+                            Console.WriteLine($"DeptName:{item.DeptName}");
+                            PrintResult(item.MaxSalaryperson2);
+
+                        }
+
+                        break;
+                    case 11:
+                        MaxSalaryPerson();
+                        break;
+                    case 12:
+                        TaxesDwise();
+                        break;
+                    case 13:
+                        CombiningDandE();
+                        break;
+                    default:
+                        Console.WriteLine("WrongChoice");
+                        break;
+
+                }
+            }
+            while (true);    
+            
+            
+            
+           
+            
+            
             static  double Calculator(int x)
             {
                 if (x < 20000)
@@ -64,35 +178,40 @@ namespace CS_NetFrwk_AllLINQ
                                 AverageSlary = deptgroup.Average(x => x.Salary),
                                 count = deptgroup.Count()
                             });
-                //Adding Required Info to anynymous object 
+                //Added Required Info to anynymous object 
 
-                //var res3 = from a in res2 select ((from b in a.Records orderby b.Salary select b.EmpName).Take(1));
+                
                 foreach (var record in res2)
                 {
                     //printing a the data The have saved in anonymous object earlier
-                    Console.WriteLine($"Group Key = {record.DeptName}");
+                    Console.WriteLine($"Department= {record.DeptName}");
                     Console.WriteLine($"Total Salary of {record.DeptName}  = {record.SumSalary}");
                     //  MaxSalaryPerson is Ienumberable type so i used foreach to print data and also for remaining
                     foreach (var a in record.MaxSalaryperson)
                     {
-                        Console.WriteLine($"Person wit max Salary in {record.DeptName} is { a.EmpName}/{a.Designation}/{a.Salary}/{a.EmpNo}");
+                        Console.WriteLine($"Person wit max Salary in {record.DeptName} is \n" +
+                            $" EmpNo{a.EmpNo}:Empname{ a.EmpName} Designation:{a.Designation} Salary {a.Salary}");
                     }
                     foreach (var a in record.MinSalaryperson)
                     {
-                        Console.WriteLine($"person with min salary { a.EmpName}/{a.Designation}/{a.Salary}/{a.EmpNo}");
+                        Console.WriteLine($"person with min salary\n" +
+                            $" EmpNo{a.EmpNo}:Empname{ a.EmpName} Designation:{a.Designation} Salary {a.Salary}");
                     }
                     foreach (var a in record.MaxSalaryperson2)
                     {
-                        Console.WriteLine($"Person wit 2 nd max Salary in {record.DeptName} is { a.EmpName}/{a.Designation}/{a.Salary}/{a.EmpNo}");
+                        Console.WriteLine($"Person wit 2 nd max Salary in {record.DeptName} is\n" +
+                            $" EmpNo{a.EmpNo}:Empname{ a.EmpName} Designation:{a.Designation} Salary {a.Salary}");
                     }
                     foreach (var a in record.MinSalaryperson2)
                     {
-                        Console.WriteLine($"person with 2 nd min salary { a.EmpName}/{a.Designation}/{a.Salary}/{a.EmpNo}");
+                        Console.WriteLine($"person with 2 nd min salary\n" +
+                            $" EmpNo{a.EmpNo}:Empname{ a.EmpName} Designation:{a.Designation} Salary {a.Salary}");
                     }
                     Console.WriteLine($"Average Salary of {record.DeptName}  = {record.AverageSlary}");
                     Console.WriteLine($"count of {record.DeptName} 's  = {record.count}");
                     // Calling print resultmetod to print data in eac group
                     PrintResult(record.Records);
+                    Console.WriteLine();
                     
                 }
             }
@@ -211,6 +330,17 @@ namespace CS_NetFrwk_AllLINQ
                 {
                     Console.WriteLine($"{e.EmpID} {e.EmpName} {e.DptId} {e.Designation} {e.Location}");
                 }
+            }
+            void AvgSalaryperDept()
+            {
+                var res = from e in emps
+                          group e by e.DeptName into deptgroup
+                          select new
+                          {
+                              deptName = deptgroup.Key,
+                              AvgSalaryper = deptgroup.Average(e=>e.Salary)
+                          };
+
             }
 
 

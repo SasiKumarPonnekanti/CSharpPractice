@@ -25,7 +25,6 @@ namespace Cs_CoreWebApi.Controllers
             var res = proService.GetAsync(id).Result;
             return Ok(res);
 
-
         }
         [HttpPost]
         public IActionResult Post(Product pro)

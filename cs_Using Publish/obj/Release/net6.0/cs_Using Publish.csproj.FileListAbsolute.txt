@@ -1,0 +1,14 @@
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\cs_Using Publish.exe
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\cs_Using Publish.deps.json
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\cs_Using Publish.runtimeconfig.json
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\cs_Using Publish.dll
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\ref\cs_Using Publish.dll
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\bin\Release\net6.0\cs_Using Publish.pdb
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\cs_Using Publish.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\cs_Using Publish.AssemblyInfoInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\cs_Using Publish.AssemblyInfo.cs
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\cs_Using Publish.csproj.CoreCompileInputs.cache
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\cs_Using Publish.dll
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\ref\cs_Using Publish.dll
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\cs_Using Publish.pdb
+C:\Users\Coditas\Desktop\C#programmes\cs_Using Publish\obj\Release\net6.0\cs_Using Publish.genruntimeconfig.cache

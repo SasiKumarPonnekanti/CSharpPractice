@@ -40,10 +40,11 @@ namespace Cs_Disconnected_Architecture.Data
                 SqlCommandBuilder bldr1 = new SqlCommandBuilder(AdDept);
                 // 5. Call Update
                 AdDept.Update(Ds, "Department");
+                Console.WriteLine("Creation Suceess");
             }
             catch (Exception ex)
             {
-                Console.WriteLine("MaY Be Dapartment Is present Try Again");
+                Console.WriteLine(ex.Message);
             }
 
             
@@ -75,14 +76,16 @@ namespace Cs_Disconnected_Architecture.Data
 
                     };
                     DrFind.Delete();
+                    
                 }
                 // 3. Command Build and Update
                 SqlCommandBuilder bldr2 = new SqlCommandBuilder(AdDept);
                 AdDept.Update(Ds, "Department");
+                Console.WriteLine("Delete Success");
             }
             catch(Exception ex)
             {
-               
+                Console.WriteLine(ex.Message);
             }
             return Depart;
 
@@ -108,6 +111,7 @@ namespace Cs_Disconnected_Architecture.Data
                 // 3. Command Build and Update
                 SqlCommandBuilder bldr2 = new SqlCommandBuilder(AdDept);
                 AdDept.Update(Ds, "Department");
+                Console.WriteLine("Update Success");
                 return entity;
             }
             else
@@ -142,7 +146,7 @@ namespace Cs_Disconnected_Architecture.Data
             }
             catch(Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
             return Depart;
 

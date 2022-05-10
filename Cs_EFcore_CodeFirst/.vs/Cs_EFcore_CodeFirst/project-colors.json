@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2566e7ef-0d03-47f1-8be5-06188d893633": {
+      "ProjectGuid": "2566e7ef-0d03-47f1-8be5-06188d893633",
+      "DisplayName": "Cs_EFcore_CodeFirst",
+      "ColorIndex": 0
+    },
+    "1f83e3b3-a624-4ec1-98d4-58187b939741": {
+      "ProjectGuid": "1f83e3b3-a624-4ec1-98d4-58187b939741",
+      "DisplayName": "Cs_EfCore_DBfirst",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "db5865da-6c0b-41b6-ad73-cda9c9f990e6": {
+      "ProjectGuid": "db5865da-6c0b-41b6-ad73-cda9c9f990e6",
+      "DisplayName": "testCodeFirst",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

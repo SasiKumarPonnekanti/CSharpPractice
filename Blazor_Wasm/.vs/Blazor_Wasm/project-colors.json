@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "88c32ca7-16c0-4a0a-8913-bed8c8c34336": {
+      "ProjectGuid": "88c32ca7-16c0-4a0a-8913-bed8c8c34336",
+      "DisplayName": "Blazor_Wasm",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

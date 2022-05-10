@@ -9,15 +9,14 @@ namespace Cs.PaySlip
         {
             Console.WriteLine("Pay Slips");
             Employees emps = new Employees();
-            BinaryFormatter bf = new BinaryFormatter();
+            
             Console.WriteLine("Enter Month");
             string Month = Console.ReadLine();
             foreach (Employee emp in emps)
             {
                 string path = @$"C:\Users\Coditas\Desktop\payslips\Salary-for-{Month}-2022-{emp.EmpNo}.txt";
                 //Used by filestram
-                string path2 = @$"C:\Users\Coditas\Desktop\Serialized paySlips\Salary-for-{Month}-2022-{emp.EmpNo}.txt";
-                //used by serialization
+                
                 //FileStream fs = new FileStream(path, FileMode.Create,FileAccess.Write);
                 if (File.Exists(path))
                 {
@@ -27,7 +26,7 @@ namespace Cs.PaySlip
                 {
                     FileStream fs = new FileStream(path, FileMode.Create, FileAccess.ReadWrite);
                     // filrstram to payslips folder
-                    FileStream fs2 = new FileStream(path2, FileMode.CreateNew);
+                   
                     //filrstream for Payslips for serilaztion
                     StreamWriter sw = new StreamWriter(fs);
                     //calling method that calculates required values Like DA HRA when we pass salary and Designation
@@ -52,13 +51,12 @@ namespace Cs.PaySlip
                                  $"|      {Convert(NetSalary)}  Rupees only                                     \n"+
                                     // Convert() is method that Converts salary into a words format
                                   "|------------------------------------------------------------------------------|";
-                    //Serializing the slip into folder
-                    bf.Serialize(fs2, slip);
+                    
                     // writing slip data into folder
                     sw.Write(slip);
                     sw.Close();
                     fs.Close();
-                    fs2.Close();
+                   
                     Console.WriteLine($"PaySlip is Generated for {emp.EmpName}");
                 }
 

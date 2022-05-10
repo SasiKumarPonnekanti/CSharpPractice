@@ -1,0 +1,47 @@
+﻿@model Cs_AjaxHelper.Models.LoginModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+
+
+
+
+<div class="form-outline mb-4">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+ </div>
+
+                  <div class="form-outline mb-4">
+                     <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                     <span asp-validation-for="Password" class="text-danger"></span>
+                  </div>
+<input type="checkbox" value="Submit" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src='<%= Url.Content("~/Scripts/jquery-1.7.1.min.js") %>'></script>
+<script src='<%= Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js") %>'></script>

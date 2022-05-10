@@ -17,9 +17,9 @@ namespace Cs_18_Feb_Assignment.DataAcces
         {
             Conn = new SqlConnection("Data Source=.;Initial Catalog=sample1;Integrated Security=SSPI");
         }
-        Employee IDataAccess<Employee, int>.Create(Employee entity)
+        void IDataAccess<Employee, int>.Create(Employee entity)
         {
-            Employee employee = null;
+           
             try
             {
                 Conn.Open();
@@ -28,21 +28,18 @@ namespace Cs_18_Feb_Assignment.DataAcces
                 Cmd.CommandText = $"Insert into Employee Values({entity.EmpNo}, '{entity.EmpName}','{entity.Salary}',{entity.DeptNo},'{entity.Designation}')";
                
                 int res = Cmd.ExecuteNonQuery();
-                if (res == 0) 
+                if (res != 0) 
                 {
-                    employee = null;
+                  
+                    Console.WriteLine("Entry Suceess");
                 }
-                else
-                {
-                    
-                    employee = new Employee();
-                    employee = entity;
-                }
+                
             }
             catch (SqlException ex)
             {
 
                 Console.WriteLine(ex.Message);
+                //Console.WriteLine(ex.Data);
             }
             finally 
             // this will be executed irrespective of try or catch block
@@ -53,7 +50,7 @@ namespace Cs_18_Feb_Assignment.DataAcces
                     Conn.Close();
                 }
             }
-            return employee;
+           
         }
 
         Employee IDataAccess<Employee, int>.Delete(int id)
@@ -84,6 +81,11 @@ namespace Cs_18_Feb_Assignment.DataAcces
                 if (res == 0)
                 {
                     emp = null;
+                    Console.WriteLine("Employee Not Found to Delete");
+                }
+                else
+                {
+                    Console.WriteLine(" Delete Success");
                 }
             }
            
@@ -198,13 +200,12 @@ namespace Cs_18_Feb_Assignment.DataAcces
             return employee;
         }
 
-        Employee IDataAccess<Employee, int>.Update(int id, Employee entity)
+        void IDataAccess<Employee, int>.Update(int id, Employee entity)
         {
-            Employee employee = null;
+            
             try
             {
-                if (id == entity.EmpNo)
-                {
+                
                     Conn.Open();
                     Cmd = new SqlCommand();
                     Cmd.Connection = Conn;
@@ -249,18 +250,14 @@ namespace Cs_18_Feb_Assignment.DataAcces
 
                     if (res == 0)
                     {
-                        employee = null;
+                        Console.WriteLine("Employee Not Found to Delete");
                     }
                     else
                     {
                         Console.WriteLine("Update Success");
-                        employee = entity;
-                    }
-                }
-                else
-                {
-                    throw new Exception($"the {id} and {entity.EmpNo} does not match");
-                }
+                        
+                    }              
+               
             }
 
             
@@ -277,7 +274,7 @@ namespace Cs_18_Feb_Assignment.DataAcces
                 }
 
             }
-            return employee;
+           
         }
     }
 }

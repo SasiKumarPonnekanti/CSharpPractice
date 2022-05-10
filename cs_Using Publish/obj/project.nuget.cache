@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UIp/mvTy0mJUXNHMi5NjRdOGS4EQC3b4wabyeellwkvjbcsAbl6G3DU/ZUEK1A7LR2kwdsRYT4u+Wpd+27TUCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Coditas\\Desktop\\C#programmes\\cs_Using Publish\\cs_Using Publish.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Coditas\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.1\\microsoft.netcore.app.runtime.win-x64.6.0.1.nupkg.sha512",
+    "C:\\Users\\Coditas\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.1\\microsoft.aspnetcore.app.runtime.win-x64.6.0.1.nupkg.sha512",
+    "C:\\Users\\Coditas\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.1\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
